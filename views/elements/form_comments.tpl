@@ -2,7 +2,7 @@
 
 	{if ($session->check('Message.error'))}
 		<a name="error"></a>
-		{if $session->flash('error')}{/if}
+		{$session->flash('error')}
 	{/if}
 	
 	<h3>{t}Write a comment{/t}</h3>

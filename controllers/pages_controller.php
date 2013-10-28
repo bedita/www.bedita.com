@@ -24,7 +24,7 @@
  */	
 class PagesController extends FrontendController {
 	
-	var $helpers = array();
+	var $helpers = array('BeFront');
 	var $components = array('BeTree');
 	var $uses = array('BEObject','Tree') ;
 	
@@ -55,6 +55,19 @@ class PagesController extends FrontendController {
 		
 		$this->set('feedNames', $this->Section->feedsAvailable(Configure::read("frontendAreaId")));
 	
+	}
+
+	/**
+	 * override FrontendController::homePage() to get first child section of 'menu' section
+	 * instead of first child section of publication
+	 */
+	public function homepage() {
+		$filter = array("object_type_id" => Configure::read("objectTypes.section.id"));
+		$menuId = $this->BEObject->getIdFromNickname('menu');
+		$child = $this->BeTree->getChildren($menuId, $this->getStatus(), $filter, null, true, 1, 1);
+		$homePageSectionId = (empty($child["items"]))? $this->publication["id"] : $child["items"][0]["id"];
+		$this->action = 'section';
+		$this->section($homePageSectionId);
 	}
 	
 	

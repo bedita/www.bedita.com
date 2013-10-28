@@ -42,12 +42,12 @@
 	{$html->css('beditaBase')}
 	{$html->css('thickbox.BEfrontend')}
 	
-	{$javascript->link("jquery")}
-	{$javascript->link("jquery.pngFix.pack")}
-	{$javascript->link("ui/ui.core.min")}
-	{$javascript->link("ui/ui.draggable.min")}
-	{$javascript->link("bedita")}
-	{$javascript->link("jquery.thickbox.BEfrontend")}
+	{$html->script("jquery")}
+	{$html->script("jquery.pngFix.pack")}
+	{$html->script("ui/ui.core.min")}
+	{$html->script("ui/ui.draggable.min")}
+	{$html->script("bedita")}
+	{$html->script("jquery.thickbox.BEfrontend")}
 
 <!--[if IE 6]>
 	{literal}

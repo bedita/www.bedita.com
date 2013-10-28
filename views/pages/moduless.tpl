@@ -1,6 +1,6 @@
 {strip}
 
-{include file="./inc/_testata.tpl"}
+{$view->element("_testata")}
 
 <div class="main">
 
@@ -101,7 +101,7 @@
 </div>
 
 
-{include file="./inc/_footer.tpl"}
+{$view->element("_footer.tpl")}
 
 
 

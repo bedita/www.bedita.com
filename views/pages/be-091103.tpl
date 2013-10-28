@@ -1,12 +1,12 @@
 
 
-{include file="./inc/_testata.tpl"}
+{$view->element("_testata")}
 
 <div class="main">
 
 	<div class="content-main">
 	
-	{include file="./inc/_menu_left.tpl"}
+	{$view->element("_menu_left")}
 	
 	
 

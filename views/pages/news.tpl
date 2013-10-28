@@ -1,6 +1,6 @@
 {strip}
 
-{include file="./inc/_testata.tpl"}
+{$view->element("_testata")}
 
 <div class="main">
 
@@ -31,8 +31,8 @@
 
 		{if (!empty($section.contentRequested) && !empty($section.currentContent))}	
 		
-			{assign_concat var="objectNick" 0=$section.currentContent.nickname|default:'' 1=".tpl"}
-			{assign_concat var="objtplfile" 0=$smarty.const.VIEWS 1="pages/" 2=$objectNick}
+			{assign_concat var="objectNick" 1=$section.currentContent.nickname|default:'' 2=".tpl"}
+			{assign_concat var="objtplfile" 1=$smarty.const.VIEWS 2="pages/" 3=$objectNick}
 		
 			{if file_exists($objtplfile)}
 			
@@ -171,7 +171,7 @@
 
 	
 		
-{include file="./inc/_footer.tpl"}
+{$view->element("_footer")}
 
 		
 

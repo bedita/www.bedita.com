@@ -1,6 +1,6 @@
 {strip}
 
-{include file="./inc/_testata.tpl"}
+{$view->element("_testata")}
 
 
 
@@ -9,7 +9,7 @@
 	
 	<div class="content-main">
 	
-	{include file="./inc/_menu_left.tpl"}
+	{$view->element("_menu_left")}
 
 	<div class="textC" style="padding:0px 0px 0px 20px;">
 		<h1>{$section.currentContent.title}</h1>
@@ -32,7 +32,7 @@
 </div>
 
 
-{include file="./inc/_footer.tpl"}
+{$view->element("_footer")}
 
 
 

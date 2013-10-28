@@ -1,18 +1,18 @@
 {strip}
 
-{include file="./inc/_testata.tpl"}
+{$view->element("_testata")}
 
 <div class="main">
 
 	<div class="content-main">
 	
-	{include file="./inc/_menu_left.tpl"}
+	{$view->element("_menu_left")}
 
 {if (!empty($section.currentContent))}
 
 	{if $section.currentContent.object_type == "Gallery"}
 
-		{include file="./inc/_galleria.tpl"}
+		{$view->element("_galleria")}
 		
 	{else}
 	
@@ -106,7 +106,7 @@
 	
 </div>	
 		
-{include file="./inc/_footer.tpl"}
+{$view->element("_footer")}
 
 
 {/strip}

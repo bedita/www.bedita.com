@@ -345,7 +345,7 @@ UL.subsection {
 
 .puls:hover {background-color:#FF4500; color:white;}
 
-.close, .prev ,.next  {
+.giannibox .close, .giannibox .prev , .giannibox .next  {
 	float:right;
 	background-color:#CCCCCC; 
 	margin:0px 0px 5px 5px;

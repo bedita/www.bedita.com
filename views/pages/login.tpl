@@ -1,16 +1,5 @@
-{strip}
+
 <div class="top">
-
-	<div class="lang">
-	<ul class="footel" style="border:0; margin:0; padding:0;">
-		{foreach from=$conf->frontendLangs item="g" key="k"}
-			<li>
-				<a {if $currLang == $k}style="color:white;"{/if} title="{$g}" href="{$html->url('/')}lang/{$k}">{$g}</a>
-			</li>
-		{/foreach}
-
-	</ul>
-	</div>
 
 	<div class="logo">
 		<a title="{$publication.public_name}" href="{$html->url('/')}"><img src="{$html->webroot}img/BElogo24.png" alt="" /></a>
@@ -32,7 +21,7 @@
 
 <div class="headmenu">
 </div>
-{/strip}
+
 
 
 

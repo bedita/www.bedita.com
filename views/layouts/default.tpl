@@ -61,15 +61,15 @@
 <![endif]-->
 
 
+	{$scripts_for_layout}
+
 </head>
 
 
 <body>
-
+{$beFront->stagingToolbar()}
 
 {$content_for_layout}
-
-{if $conf->staging}{$view->element('staging_toolbar')}{/if}
 
 
 {if empty($conf->staging) && !empty($publication.stats_code)}{$publication.stats_code}{/if}

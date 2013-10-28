@@ -98,46 +98,6 @@ $(document).ready(function(){
 	});
 	
 	
-/*...........................................    
-
-   Staging
-
-...........................................*/	
-	
-	$(".stagingmenu LI A").click(function(){
-		var myLeft = $(this).position().left;
-		var trigged  = $(this).attr("rel");
-		$("#"+trigged+"").css("left",myLeft).toggle('fast');
-
-	
-	});
-
-	$(".openclose").click(function(){
-		$(".stagingsubmenu").hide();
-		$(".stagingmenu LI.in").toggle('fast');
-		$(this).toggleText("›","‹");
-	});
-
-	
-	$(".textC dfn.glossario").css("cursor","pointer").click(function(){
-		var data = {
-			"url": baseUrl + 'pages/getGlossary',
-			"title": $(this).text()
-		};
-		$(this).minimodal(data);
-	});
-	
-	
-	$(".js-seemore-news").click(function() {
-		if ($(".js-listnews li:hidden").length > 0) {
-			$(".js-listnews li:hidden").slideDown();
-			$(this).text("Less news");
-		} else {
-			$(".js-listnews li.js-expandable").slideUp();
-			$(this).text("More news");
-		}
-	});
-	
 });
 
 

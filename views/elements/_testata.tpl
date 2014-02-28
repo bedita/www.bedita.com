@@ -47,7 +47,7 @@
 	</div>
 	
 	<div class="illustrazione" style="margin-left:60px;">
-		<img src="{$html->webroot}img/tree_poplus.png" style="margin-top:-36px; opacity: 0.7" />
+		<img src="{$html->webroot}img/tree_corylus.png" style="margin-top:-36px; opacity: 0.7" />
 	</div>
 	
 	{if !empty($banner)}

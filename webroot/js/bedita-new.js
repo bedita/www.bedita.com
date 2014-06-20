@@ -52,7 +52,7 @@ $(document).ready(function(){
 		
 	});
 */
- 	//$(document).pngFix(); 
+ 	$(document).pngFix(); 
 
 	
 	$(".menuP LI").hover(
@@ -96,97 +96,15 @@ $(document).ready(function(){
 		$(".giannicontainer").hide();
 		$("object").show();
 	});
-
-
- 	gino=$(".headmenu").css("background");
-	$(".toggle-menu").click(function(){
-	    
-	    $(this).toggleClass("open");
-
-	    if ($(this).hasClass("open")) {
-	    	
-			$(".headmenu").animate({right:"+0px"});
-	    	$(".headmenu *").show();
-	    	$(".headmenu").css("background", gino);
-	    	$(".subdocs li:nth-child(5)").hide();
-	    	$(".subdocs li:nth-child(6)").hide();
-	    	$(".subdocs li:nth-child(7)").hide();
-	    	$(".subdocs li:nth-child(8)").hide();
-	    	$(".subdocs li:nth-child(9)").hide();
-	    	$(".subdocs li:nth-child(10)").hide();
-	    	$(".subdocs a h1").hide();
-	   }else{
-	    	$(".headmenu").animate({right:"-320px"});
-	    	$(".headmenu *").not(this).hide();
-	    	$(".headmenu").css("background", "#e6e6e6");
-
-	    }
-
-	});
-
-/*$(".toggle-menu").click(function () {
-   if (!$(".headmenu").hasClass("open")) {
-       $(".headmenu").animate({right:"0px"}).addClass("open");
-   } else {
-       $(".headmenu").animate({right:"-320px"}).removeClass("open");
-   }
-});*/
-
-	/*$(window).resize(function() {
-  if ($(window).width() < 2000) {
-     $(".what-does-bedita iframe").hide();
-  }
- else {
-    $(".what-does-bedita iframe").show();
- }
-});*/
-
-
-$(window).resize(function() {
-  if ($(window).width() < 2000) {
-     $(".what-does-bedita iframe").hide();
-  }
- else {
-    $(".what-does-bedita iframe").show();
- }
+	
+	
 });
 
-	$('A[target="scroll"]').click(function(event) {
-		event.preventDefault();
-		var nickname = $(this).attr('rel');
-		var element = $('.content-main .'+nickname);
-		var offsetTop = element.offset().top;
-		$('body').animate({
-			scrollTop: offsetTop
-		}, 500);
-	})
+$(document).ready(function(){
 
-
-		$("#hidden").css("display","none");
-	$(".closer-look").css("padding-bottom","270px");
-	$(".closer-look").css("padding-top","180px");
-
-	display=$(".more").css("display");
-	$(".more").click(function() {
-	$("#hidden").css("display",display);
-	$(".more").css("display","none");
-	$(".closer-look").css("padding-bottom","150px");
-	$(".closer-look").css("padding-top","90px");
-	});
-
+	$('.subdocs').prependTo('.menuP');
 
 });
-
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    startAt: 0,
-    slideshow: false
-  });
-});
-
-
-        
 
 
 

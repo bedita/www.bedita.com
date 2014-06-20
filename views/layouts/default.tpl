@@ -39,15 +39,24 @@
 		{/foreach}
 	{/if}
 	
-	{$html->css('beditaBase')}
+	{$html->css('beditanew')}
 	{$html->css('thickbox.BEfrontend')}
 	
-	{$html->script("jquery")}
+	{*$html->script("jquery")*}
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	{$html->script("jquery.pngFix.pack")}
 	{$html->script("ui/ui.core.min")}
 	{$html->script("ui/ui.draggable.min")}
 	{$html->script("bedita")}
 	{$html->script("jquery.thickbox.BEfrontend")}
+
+	{$html->script("jquery.flexslider")}
+	{$html->css('flexslider')}
+
+
+
+
+
 
 <!--[if IE 6]>
 	{literal}

@@ -5,28 +5,6 @@
 <div class="main">
 
 	<div class="content-main">
-
-	
-		<div class="subdocs">
-		{if $section.nickname != "footer"}
-				
-			<ul class="js-listnews">
-			{if (!empty($section.childContents[1]))}
-				
-				{foreach from=$section.childContents item="d" name="fc_listnews"}
-				<li{if $smarty.foreach.fc_listnews.index > 4} style="display: none;" class="js-expandable"{/if}>
-				<a href="{$html->url('/')}{$section.nickname}/{$d.nickname}" {if !empty($section.contentRequested) && $section.currentContent.nickname == $d.nickname}class="subon"{/if}>{$d.title}</a>
-				<br/>
-				<span style="font-style: italic; font-size: 0.8em;">{$d.publication_date|date_format:$conf->datePattern}</span>
-				</li>
-				{/foreach}
-			
-			{/if}
-			</ul>
-		
-			<p style="font-size: 12px; margin-top: 20px;"><a href="javascript:void(0);" class="js-seemore-news">See more</a></p>
-		{/if}
-		</div>
 		
 
 		{if (!empty($section.contentRequested) && !empty($section.currentContent))}	
@@ -47,7 +25,7 @@
 				{/if}
 			
 
-				<div class="textC {$class|default:''}">
+				<div class="textC {$class|default:''} news single-news">
 					<h3 style="margin-bottom: 15px;">{$section.currentContent.publication_date|date_format:$conf->datePattern}</h3>
 					<h1>{$section.currentContent.title}</h1>
 			
@@ -59,7 +37,7 @@
 				</div>
 					
 			
-				<div class="abstract {$class|default:''}">
+				<div class="abstract {$class|default:''} sub-par">
 			
 						{$section.currentContent.abstract|default:''}
 						
@@ -139,7 +117,7 @@
 		{elseif !empty($section.childContents)}
 			{assign_associative var="params" width=150 mode="fill" upscale=false}
 			{assign_associative var="htmlAttr" width=150 style="float: right; margin: 0 10px 0 10px;"}
-			<div class="textC">
+			<div class="textC news">
 				{foreach from=$section.childContents item="d" name="news"}
 					{if $smarty.foreach.news.iteration <= 3}
 						
@@ -157,7 +135,7 @@
 							{$continue}
 							</p>
 							{if $continue|count_characters > 353} 
-							<a href="{$html->url('/')}{$section.nickname}/{$d.nickname}">{t}continue{/t}</a>
+							<a href="{$html->url('/')}{$section.nickname}/{$d.nickname}" class="continue">{t}continue{/t}</a>
 							{/if}
 						</div>
 						
@@ -165,6 +143,27 @@
 				{/foreach}
 			</div>
 		{/if}
+
+		<div class="subdocs">
+		{if $section.nickname != "footer"}
+				
+			<ul class="js-listnews">
+			{if (!empty($section.childContents[1]))}
+				
+				{foreach from=$section.childContents item="d" name="fc_listnews"}
+				<li{if $smarty.foreach.fc_listnews.index > 4} style="display: none;" class="js-expandable"{/if}>
+				<a href="{$html->url('/')}{$section.nickname}/{$d.nickname}" {if !empty($section.contentRequested) && $section.currentContent.nickname == $d.nickname}class="subon"{/if}>{$d.title}</a>
+				<br/>
+				<span style="font-style: italic; font-size: 0.8em;">{$d.publication_date|date_format:$conf->datePattern}</span>
+				</li>
+				{/foreach}
+			
+			{/if}
+			</ul>
+		
+			<p style="font-size: 12px; margin-top: 20px;"><a href="javascript:void(0);" class="js-seemore-news">See more</a></p>
+		{/if}
+		</div>
 	
 	</div>
 </div>

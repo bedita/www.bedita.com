@@ -2,7 +2,11 @@
 
 {$view->element("_testata")}
 
-<div class="main home">
+<link rel="stylesheet" href="/bedita/frontends/www.bedita.com/css/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="/bedita/frontends/www.bedita.com/js/jquery.flexslider.js"></script>
+
+<div class="main home index">
 
 	<div class="content-main">
 	
@@ -20,8 +24,8 @@
 		
 	{/if}
 
-	{if !empty($section.contentRequested)}
-	<div class="textSection {$class|default:''} {$section.currentContent.nickname}">
+	{if empty($section.childContents)}
+	<div class="textC {$class|default:''} {$section.currentContent.nickname}">
 		
 		<h1>{$section.currentContent.title}</h1>
 
@@ -32,24 +36,29 @@
 
 	</div>
 	{else}
-		{assign var=child value=$section.childContents.0}
-			<div class="textSection {$class|default:''} {$child.nickname}">
+		{foreach from=$section.childContents item=child}
+			<div class="textC {$class|default:''} {$child.nickname}">
 		
 				<h1>{$child.title}</h1>
 
 				<p class="testo">{$child.body}</p>
 
 				{assign var="item" value=$child.relations.attach|default:''}
+			
+
+			<div class="flexslider">
+				
+				<ul class="slides">
 
 				{section name=g loop=$item}
 				
 					{assign_associative var="paramsBig" width=244 mode="fill" upscale=false URLonly=true}
-					
+					<li>
 						{assign_associative var="params" width=900 mode="fill" upscale=false}
 						{assign_associative var="htmlAttr" width=500}
 						{if $item[g].object_type_id == $conf->objectTypes.image.id}
 							<a class="thickbox" href="{$beEmbedMedia->object($item[g],$paramsBig)}" 
-							title="{$item[g].description}" rel="gallery">
+							title="{$item[g].title}" rel="gallery">
 							{$beEmbedMedia->object($item[g],$params)}
 							</a>
 						{elseif $item[g].object_type_id == $conf->objectTypes.video.id}
@@ -59,17 +68,51 @@
 							<a href="{$beEmbedMedia->object($item[g],$params,$htmlAttr)}" title="{$item[g].title|replace:'<br/>':' -  '}"  alt="{$item[g].title|replace:'<br/>':' -  '}">{$item[g].title}</a>
 						{/if}
 						{if !empty($item[g].description)}<p class="dida">{$item[g].description}</p>{/if}
+					</li>
 					
 				{/section}
+
+				</ul>
+			</div>
 
 				{assign_associative var="options" object=$child showForm=true}
 				{$view->element('show_comments', $options)}	
 
 			</div>
-		
+		{/foreach}
 	{/if}
 
-	{$view->element("_menu_left")}
+{* copia di menu left *}
+	<div class="subdocs">
+
+		<ul>
+		
+		{assign var="objects" value=$ancestor.childContents|default:$section.childContents|default:""}
+			
+		{if !empty($objects[1])}
+			{foreach from=$objects item="object"}
+			<li><a href="{$html->url('/')}{$ancestor.nickname|default:$section.nickname}/{$object.nickname}" rel="{$object.nickname}" target="scroll"
+			{if $section.currentContent.nickname == $object.nickname}class="subon"{/if}>{$object.title}</a></li>
+			{/foreach}
+		{/if}
+
+		{if !empty($submenu)}
+			{foreach from=$submenu item="subsection"}
+			<a href="{$html->url('/')}{$subsection.nickname}"><h1{if $section.id == $subsection.id} class="on"{/if}>{$subsection.title}</h1></a>
+			{if !empty($subsection.objects)}
+				{foreach from=$subsection.objects item="subContent" name="contents"}
+					
+					<li><a title="" href="{$html->url('/')}{$subsection.nickname}/{$subContent.nickname}" rel="{$subContent.nickname}" target="scroll"
+						{if $section.currentContent.nickname == $subContent.nickname}class="subon"{/if}>{$subContent.title}</a></li>
+					
+				{/foreach}
+			{/if}
+			{/foreach}
+		{/if}
+		
+		</ul>
+
+	</div>
 
 	<div class="abstract {$class|default:''} {$section.currentContent.nickname}">
 

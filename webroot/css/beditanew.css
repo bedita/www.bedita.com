@@ -1,0 +1,5371 @@
+@charset "utf-8";
+
+/*
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+CSS Created by Chialab.it
+
+http://www.chialab.it 2008
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+*/
+
+
+@media screen and (min-width: 1745px) {
+
+	.be-download-2 p:nth-child(4){
+		height:30px;
+	}
+
+	.quick-few-steps h1{
+		font-size: 4.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#717171;
+		padding-left: 32%;
+	}
+
+	.thickbox img{
+	position: relative;
+	left: 33%;
+	right:50%;
+	}
+
+.flex-next, .flex-prev{
+	display: none;
+	}
+
+	/*...........................................    
+
+				TRY BEDITA MIN 1745PX
+
+...........................................*/
+
+	.quick-few-steps{
+		max-width: 70%;
+		padding:0 35% 0 15%;
+		margin: 0 auto;
+	}
+
+	.quick-few-steps p{
+		text-align: center;
+		color:#717171;
+		padding:0 35% 0 15%;
+
+	}
+
+
+ .textSection h1
+ {
+		font-size: 2.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#c972a7;
+	}	
+
+
+	.textSection h2, .textSection p, .textSection ul li, .textSection ol li{
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+.textSection h4 {
+		padding-top: 2%;
+		font-size: 1.8em;
+	}
+
+	.textSection ol, .textSection ul {
+		list-style: none;
+	}
+
+	.overview ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+ .textSection a{
+		color:#c972a7;
+	}
+
+	.overview p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+
+	.textSection{
+		max-width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+	}
+
+   .schema-and-database-files{
+ 		width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+ }
+
+ .framework-overview{
+ 	width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+ }
+	
+
+	.try-bedita h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.abstract{
+		padding-bottom: 4%;
+	}
+
+
+
+
+	.main .subdocs .documentation a h1, .main .subdocs .frontend a h1, .main .subdocs .backend a h1, .main .subdocs .bedita-3-2-populus a h1, .main .subdocs .changelog a h1{
+		color:#c972a7 !important;
+	}
+
+	.main .subdocs ul{
+		list-style: none;
+	}
+
+	.main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+	.main .subdocs .download-bedita a h1, .main .subdocs .extend a h1, .main .subdocs .plugin-modules a h1, .main .subdocs .frontend-themes a h1 {
+		color:#acc700 !important;
+	}
+
+
+
+/*...........................................    
+
+				DOWNLOAD MIN 1745PX
+
+...........................................*/
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+	.be-download-2, .translation-packages, .installation-and-management, .glossary, .ticket, .installation, .abrasive, .altruism, .astroturfd, .bookish, .mimbo, .zenlike {
+		max-width:55%;
+		height:auto;
+		padding: 0 0% 11.35% 5%;
+		float:left;
+	}
+
+	
+	.be-download-2 h1, .translation-packages h1, .installation-and-management h1, .glossary h1, .ticket h1, .installation h1, .abrasive h1, .altruism h1, .astroturfd h1, .bookish h1, .mimbo h1, .zenlike h1 {
+		font-size: 2.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #acc700;
+	}	
+
+
+	.be-download-2 h2, .be-download-2 p, .be-download-2 ul li, .be-download-2 ol li,
+	.translation-packages h2, .translation-packages p, .translation-packages ul li, .translation-packages ol li, 
+	.glossary h2, .glossary p, .glossary ul li, .glossary ol li,
+	.installation-and-management h2, .installation-and-management p, .installation-and-management ul li, .installation-and-management ol li,
+	.ticket h2, .ticket p, .ticket ul li, .ticket ol li,
+	.installation h2, .installation p, .installation ul li, .installation ol li,
+	.abrasive h2, .abrasive p, .abrasive ul li, .abrasive ol li,
+	.astroturfd h2, .astroturfd p, .astroturfd ul li, .astroturfd ol li,
+	.altruism h2, .altruism p, .altruism ul li, .altruism ol li,
+	.bookish h2, .bookish p, .bookish ul li, .bookish ol li,
+	.mimbo h2, .mimbo p, .mimbo ul li, .mimbo ol li,
+	.zenlike h2, .zenlike p, .zenlike ul li, .zenlike ol li {
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.be-download-2 a, .translation-packages a, .installation-and-management a, .glossary a, .ticket a, .installation a, .abrasive a, .altruism a, .astroturfd a, .bookish a, .mimbo a, .zenlike a {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#acc700;
+		line-height: 1.5em;
+	}
+
+	
+
+	.be-download-2 h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.be-download-2 p:nth-child(3) a{
+		color:black;
+		font-weight: bold !important;
+	}
+
+	.puls a{
+		background: url('../img/download-ico.png') no-repeat;
+		content:'';
+		display: block;
+		width:60px;
+		height:60px;
+		text-indent:-9999px;
+		float:left;
+		margin: 2.2% 3% 0 3%;
+
+	}
+
+	.be-download-2 p:nth-child(6){
+		display: inline-block;
+		margin-top: 1.2%;
+	}
+/*...........................................    
+
+				MENU RESPONSIVE MIN 1745PX
+
+...........................................*/
+
+	.headmenu{position:fixed; right:0px; background: url('../img/tree.png') no-repeat 0px 600px #e6e6e6; height: 100%; width: 395px; z-index: 2002;}
+	.menuP{list-style: none; width:100%; height: auto;}
+	.toggle-menu{	
+	background: url('../img/button.png') no-repeat;
+	width:35px;
+	height:31px;
+	margin: 25px 0 3% 6%;
+	display: none;
+}
+
+
+
+
+/*...........................................    
+
+				TRY BEDITA MIN 1745PX
+
+...........................................*/
+
+ .try-bedita h1 {
+		font-size: 2.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#ff7500;
+	}	
+
+
+	.try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li{
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	.try-bedita ul {
+		list-style: none;
+	}
+
+	.try-bedita ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.try-bedita a{
+		background: url('')!important;
+		color:#ff7500;
+	}
+
+	.try-bedita p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.try-bedita{
+		max-width:50%;
+		height:auto;
+		padding: 0 0% 5% 5%;
+		float:left;
+	}
+
+	
+
+	.try-bedita h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.abstract{
+		padding-bottom: 4%;
+	}
+
+
+/*...........................................    
+
+				NEWS MIN 1745PX
+
+...........................................*/
+	
+	.single-news ul{
+		list-style: none;
+	}
+
+	.single-news p:nth-child(9){
+		padding-top: 2%;
+	}
+
+	.single-news ul li{
+		padding: 1%;
+	}
+
+	.single-news ul:nth-child(10) li a{
+		font-weight: bold;
+		font-size: 1.2em;
+
+	}
+
+	.single-news a{
+		color:black;
+		font-weight: bold;
+
+	}
+	.single-news ul:nth-child(10) li{
+		padding:2%;
+	}
+
+	.sub-par{
+		float:left;
+		display: block;
+		width:100%;
+		padding:0 0 5% 5%;
+	}
+
+	.sub-par ul{
+		list-style: none;
+	}
+
+	.sub-par ul li a{
+		font-style: none;
+		color: #00a4d1;
+		font-size: 1.4em;
+	}
+
+	.sub-par h2{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.news h1 {
+		font-size: 2.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #00a4d1;
+	}	
+
+
+	.news h2, .continue, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li{
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+
+	.content-main .subdocs{
+		float:left;
+		width:500px;
+		display: inline-block;
+		margin-top:1%;
+		padding:0 10% 0 1%;
+		margin-left: 5%;
+		border-left:2px solid #535353;
+		margin-bottom: 5%;
+	}
+
+	.content-main .subdocs ul{
+		list-style: none;
+	}
+
+
+
+	.content-main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.js-seemore-news{
+		color:black;
+		font-size: 1.3em;
+	}
+
+	.news{
+		max-width:50%;
+		height:auto;
+		padding: 0 0% 5% 5%;
+		float:left;
+	}
+
+
+	.news div:first-child a{
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news div a:nth-child(9){
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-size:1.3em;
+	}
+
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(3) a{
+		font-style: none;
+		color:#c972a7;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news p, .news h2, .news ul li, .news ol li {
+		font-size: 1.3em;
+	}
+
+
+/*...........................................    
+
+				FIVE STEPS 1745PX
+
+...........................................*/
+
+	.quick-few-steps{
+		max-width: 79%;
+		padding:0 0 5% 0;
+	}
+
+
+	.quick-few-steps p{
+		text-align: center;
+		color:#717171;
+
+	}
+
+	
+
+/*...........................................    
+
+				BUTTON W I BE MIN 1745PX
+
+...........................................*/
+
+	.try{
+		background-color: #ff7500;
+		width:30% !important;
+		height: 50px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.9em;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		margin-right: 8%;
+		
+	}
+
+	.try a, .download-it a {
+		color:white;
+	}
+
+	.download-it{
+		background-color: #acc600;
+		width:30% !important;
+		height: 50px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.9em;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+	}
+
+	.bottoni{
+		height: auto;
+		width:50%;
+		padding-top: 2%;
+		height:120px;
+	}
+
+
+/*...........................................    
+
+				LICENSING MIN 1745PX
+
+...........................................*/
+
+	.licensing{
+		background: url('../img/licensing.png') no-repeat #2bb2d9;
+		padding: 5% 0% 5% 5%;
+		background-position: 72% 61%;
+		width:100%;
+		height: auto;
+	}
+
+	.licensing{
+		text-align: left;
+		padding: 5% 0 5% 0;
+	}
+	
+	.licensing p, .licensing h1{
+		width: 50%;
+		margin-left: 5%;
+	}
+
+	.logo img{
+			float:right;
+			padding-right:24%;
+			padding-top:1%;
+	}
+
+
+/*...........................................    
+
+				W IS BE MIN 1745PX
+
+...........................................*/
+
+	.what-does-bedita h1, .closer-look h1, .licensing h1 {
+		font-size: 4.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+	}
+
+
+	.what-does-bedita .flexslider{
+		position:relative;
+		width: 25%;
+		position: absolute;
+		bottom:44%;
+		right:19%;
+	}
+
+
+	.what-does-bedita h2, .what-does-bedita p, .what-does-bedita ul li, .what-does-bedita ol li, .quick-few-steps ul li, .quick-few-steps ol li, .closer-look h2, .closer-look p, .closer-look ul li, .closer-look ol li, .licensing h2, .licensing p, .licensing ul li, .licensing ol li{
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+		.what-does-bedita{
+		max-width:78%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+	}
+
+
+	.what-does-bedita p, .what-does-bedita h2{
+		width:55%;
+	}
+
+
+
+/*...........................................    
+
+				FOOTER MIN 1745PX
+
+...........................................*/
+
+	.footer {
+		clear:both;
+		background-color:#343434;
+		height:370px;
+	}
+
+
+	.footel {
+		width:10%;
+		max-height:33%;
+		float:left;
+		height:auto;
+	}
+
+	 
+	.footel LI {
+		list-style-type:none;
+		font-family:"Arial",
+		sans-serif;
+		font-size:12px;
+		line-height:1.8em;
+		padding:5px 10px 0px 10px;
+		color:white; 
+		font-size: 1em;
+		width:90%;
+	}
+
+	.footel li p > a {
+		background-color:#343434;
+		background-image:url('');
+	}
+
+	.footer > .footel > li > a > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+	.footer > .footel > li > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+
+	.footel LI A {
+		text-decoration:none;
+		color:white;
+	}
+
+	.footel LI A:hover {
+		color:white;
+	}
+
+
+	.footer > .footel:nth-child(4) li{
+		padding-top:5%;
+	}
+
+	.sviluppato{
+		background: url('../img/sviluppato.png') no-repeat;
+		height:110px;
+		width:100%;
+		position:relative;
+		bottom:15%;
+	}
+
+
+/*...........................................    
+
+				CLOSER LOOK MIN 1745PX
+
+...........................................*/
+
+	.closer-look{
+		background: url('../img/a-closer-look.jpg') no-repeat left top; z-index: -1;
+		width: 100%; height: 100%; top: 0; left: 0;
+			}
+
+	.closer-look h1, .closer-look p, .closer-look a{
+		color:white;
+	}
+
+	.closer-look h1{
+		padding:0 35% 0 15%;
+		text-align: center;
+	}
+
+	.closer-look p{
+		padding:0 35% 0 15%;
+		text-align: center;
+
+	}
+
+	.headmenu{
+		padding-top:3%;
+	}
+
+}
+
+@media screen and (max-width: 1745px) {
+
+		.quick-few-steps h1{
+		font-size: 3.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#717171;
+		padding-left: 29%;
+		padding-top: 2.5%;
+	}
+
+	.thickbox img{
+	position: relative;
+	left: 30%;
+	right:50%;
+	}
+.flex-next, .flex-prev{
+	display: none;
+}
+
+		/*...........................................    
+
+				TRY BEDITA MIN 1745PX
+
+...........................................*/
+
+ .textSection h4 {
+		padding-top: 2%;
+		font-size: 1.6em;
+	}
+
+ .textSection h1{
+		font-size: 2.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#c972a7;
+	}	
+
+	.main .subdocs .download-bedita a h1, .main .subdocs .extend a h1, .main .subdocs .plugin-modules a h1, .main .subdocs .frontend-themes a h1 {
+		color:#acc700 !important;
+	}
+
+	.textSection h2, .textSection p, .textSection ul li, .textSection ol li	{
+		font-size: 1.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.textSection ul, .textSection ol{
+		list-style: none;
+	}
+
+	.overview ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+ .schema-and-database-files{
+ 		width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+ }
+	
+
+	.textSection a{
+		color:#c972a7;
+	}
+
+	.overview p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+ 
+	.textSection{
+		max-width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+	}
+
+
+	.main .subdocs .documentation a h1, .main .subdocs .frontend a h1, .main .subdocs .backend a h1, .main .subdocs .bedita-3-2-populus a h1, .main .subdocs .changelog a h1{
+		color:#c972a7;
+	}
+
+	.main .subdocs ul{
+		list-style: none;
+	}
+
+	.main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+
+
+/*...........................................    
+
+				MENU RESPONSIVE MIN 1745PX
+
+...........................................*/
+
+	.headmenu{position:fixed; right:0%; background: url('../img/tree.png') no-repeat 0px 600px #e6e6e6; height: 100%; width: 395px; z-index: 2002;}
+	.menuP{list-style: none; width:100%; height: auto;}
+	.toggle-menu{	
+	background: url('../img/button.png') no-repeat;
+	width:35px;
+	height:31px;
+	margin: 25px 0 3% 6%;
+	display: none;
+}
+
+/*...........................................    
+
+				DOWNLOAD MIN 1745PX
+
+...........................................*/
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+	
+	.be-download-2 h1, .translation-packages h1, .installation-and-management h1, .glossary h1, .ticket h1, .installation h1, .abrasive h1, .altruism h1, .astroturfd h1, .bookish h1, .mimbo h1, .zenlike h1  {
+		font-size: 2.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #acc700;
+	}	
+
+
+	.be-download-2 h2, .be-download-2 p, .be-download-2 ul li, .be-download-2 ol li,
+	.translation-packages h2, .translation-packages p, .translation-packages ul li, .translation-packages ol li, 
+	.glossary h2, .glossary p, .glossary ul li, .glossary ol li,
+	.installation-and-management h2, .installation-and-management p, .installation-and-management ul li, .installation-and-management ol li,
+	.ticket h2, .ticket p, .ticket ul li, .ticket ol li,
+	.installation h2, .installation p, .installation ul li, .installation ol li,
+	.abrasive h2, .abrasive p, .abrasive ul li, .abrasive ol li,
+	.astroturfd h2, .astroturfd p, .astroturfd ul li, .astroturfd ol li,
+	.altruism h2, .altruism p, .altruism ul li, .altruism ol li,
+	.bookish h2, .bookish p, .bookish ul li, .bookish ol li,
+	.mimbo h2, .mimbo p, .mimbo ul li, .mimbo ol li,
+	.zenlike h2, .zenlike p, .zenlike ul li, .zenlike ol li{
+		font-size: 1.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.be-download-2 a, .translation-packages a, .installation-and-management a, .glossary a, .ticket a, .installation a, .abrasive a, .altruism a, .astroturfd a, .bookish a, .mimbo a, .zenlike a {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#acc700;
+		line-height: 1.5em;
+	}
+
+	.be-download-2, .translation-packages, .installation-and-management, .glossary, .ticket, .installation, .abrasive, .altruism, .astroturfd, .bookish, .mimbo, .zenlike {
+		max-width:69%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	.be-download-2 h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.be-download-2 p:nth-child(3) a{
+		color:black;
+		font-weight: bold !important;
+	}
+
+	.puls a{
+		background: url('../img/download-ico.png') no-repeat;
+		content:'';
+		display: block;
+		width:60px;
+		height:60px;
+		text-indent:-9999px;
+		float:left;
+		margin: 2.2% 3% 0 3%;
+
+	}
+
+	.be-download-2 p:nth-child(6){
+		display: inline-block;
+		margin-top: 1.2%;
+	}
+
+/*...........................................    
+
+				TRY BEDITA MAX 1745PX
+
+...........................................*/
+
+ .try-bedita h1 {
+		font-size: 2.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#ff7500;
+	}	
+
+
+	.try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li{
+		font-size: 1.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	.try-bedita ul {
+		list-style: none;
+	}
+
+	.try-bedita ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.try-bedita a{
+		background: url('')!important;
+		color:#ff7500;
+	}
+
+	.try-bedita p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.try-bedita{
+		max-width:70%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	
+
+	.try-bedita h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.abstract{
+		padding-bottom: 4%;
+	}
+
+
+/*...........................................    
+
+				NEWS MAX 1745PX
+
+...........................................*/
+	
+	.news div a:nth-child(9){
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-size:1.3em;
+	}
+
+
+		
+	.single-news ul{
+		list-style: none;
+	}
+
+	.single-news p:nth-child(9){
+		padding-top: 2%;
+	}
+
+	.single-news ul li{
+		padding: 1%;
+	}
+
+	.single-news ul:nth-child(10) li a{
+		font-weight: bold;
+		font-size: 1.2em;
+
+	}
+
+	.single-news a{
+		color:black;
+		font-weight: bold;
+
+	}
+
+	.single-news ul:nth-child(10) li{
+		padding:2%;
+	}
+
+	.sub-par{
+		float:left;
+		display: block;
+		width:100%;
+		padding:0 0 5% 5%;
+	}
+
+	.sub-par ul{
+		list-style: none;
+	}
+
+	.sub-par ul li a{
+		font-style: none;
+		color: #00a4d1;
+		font-size: 1.4em;
+	}
+
+	.sub-par h2{
+		font-size: 1.3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+
+	.news h1 {
+		font-size: 2.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #00a4d1;
+	}	
+
+
+	.news h2, .continue, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li{
+		font-size: 1.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	
+	.content-main .subdocs, .content-main .subdocs-download{
+		float:left;
+		width:30%;
+		display: inline-block;
+		margin-top:1%;
+		padding:0 17% 0 1%;
+		margin-left: 5%;
+		border-left:2px solid #535353;
+		margin-bottom: 5%;
+	}
+
+	.content-main .subdocs ul{
+		list-style: none;
+	}
+
+	.content-main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.js-seemore-news{
+		color:black;
+		font-size: 1.3em;
+	}
+
+
+
+	.news{
+		max-width:70%;
+		height:auto;
+		padding: 0 0% 5% 5%;
+		float:left;
+	}
+
+	.news h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		padding-bottom: 3%;
+
+	}
+
+	.news div:first-child a{
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(3) a{
+		font-style: none;
+		color:#c972a7;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+	
+
+	.news h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news p, .news h2, .news ul li, .news ol li {
+		font-size: 1.3em;
+	}
+
+
+	.try{
+		background-color: #ff7500;
+		width:300px;
+		height: 60px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.9em;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		margin-right: 8%;
+		
+	}
+
+	.try a, .download-it a {
+		color:white;
+	}
+
+	.download-it{
+		background-color: #acc600;
+		width:300px;
+		height: 60px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.9em;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+	}
+
+	.bottoni{
+		height: auto;
+		width:100%;
+		padding-top: 2%;
+		height:120px;
+	}
+
+
+
+	.quick-few-steps{
+		max-width: 70%;
+		padding:0 0 5% 5%;
+		margin: 0 auto;
+		width;
+	}
+
+
+	.quick-few-steps p{
+		text-align: center;
+		color:#717171;
+		padding: 0 0% 2% 5%;
+		width: 70%;
+
+	}
+
+	.what-does-bedita{
+	max-width:70%;
+	height:auto;
+	padding: 0 0% 2% 5%;
+}
+
+	.what-does-bedita{
+	max-width:65%;
+	height:auto;
+	padding: 0 0% 2% 5%;
+}
+
+.what-does-bedita div:nth-child(9){
+		position:relative;
+		width: 25%;
+		position: absolute;
+		bottom:32%;
+		right:19%;
+		display: none;
+	}
+
+	.licensing{
+		background: url('../img/licensing.png') no-repeat #2bb2d9;
+		padding: 5% 0% 5% 5%;
+		background-position: 58% 61%;
+		width:100%;
+		height: auto;
+	}
+
+	.licensing{
+		text-align: left;
+		padding: 0 0 5% 0;
+	}
+	
+	.licensing p, .licensing h1{
+		width: 40%;
+		margin-left: 5%;
+	}
+
+	.logo img{
+			float:right;
+			padding-right:33%;
+			padding-top:2%;
+	}
+
+	.what-does-bedita h1, .closer-look h1, .licensing h1 {
+		font-size: 4.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+	}	
+
+
+	.what-does-bedita h2, .what-does-bedita p, .what-does-bedita ul li, .what-does-bedita ol li, .closer-look h2, .closer-look p, .closer-look ul li, .closer-look ol li, .licensing h2, .licensing p, .licensing ul li, .licensing ol li{
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-style: none;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.footer {
+		clear:both;
+		background-color:#343434;
+		height:355px;
+	}
+
+	.footel {
+		width:20%;
+		max-height:33%;
+		float:left;
+		height:auto;
+	}
+
+	 
+	.footel LI {
+		list-style-type:none;
+		font-family:"Arial",
+		sans-serif;
+		font-size:12px;
+		line-height:1.8em;
+		padding:5px 10px 0px 10px;
+		color:white; font-size: 1em;
+		width:85%;
+	}
+
+	.footel li p > a {
+		background-color:#343434;
+		background-image:url('');
+	}
+
+	.footer > .footel > li > a > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+	.footer > .footel > li > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+
+	.footel LI A {
+		text-decoration:none;
+		color:white;
+	}
+
+	.footel LI A:hover {
+		color:white;
+	}
+
+
+	.footer > .footel:nth-child(4) li{
+		padding-top:5%;
+	}
+
+	.sviluppato{
+		background: url('../img/sviluppato.png') no-repeat;
+		height:110px;
+		width:100%;
+		position:relative;
+		bottom:15%;
+	}
+
+	.closer-look{
+		background: url('../img/a-closer-look.jpg') no-repeat;
+		width:100%;
+		height:605px;
+
+	}
+
+	.closer-look h1, .closer-look p, .closer-look a{
+		color:white;
+	}
+
+	.closer-look h1{
+		padding:0 35% 0 15%;
+		text-align: center;
+	}
+
+	.closer-look p{
+		padding:0 35% 0 15%;
+		text-align: center;
+
+	}
+
+	.headmenu{
+		padding-top:3%;
+	}
+}
+
+@media screen and (max-width: 1265px) {
+
+	.be-download-2 p:nth-child(4){
+		height:30px;
+	}
+
+
+	.quick-few-steps h1{
+		font-size: 3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#717171;
+		padding-left: 29%;
+		padding-top: 2.5%;
+	}
+
+	.thickbox img{
+	position: relative;
+	left: 24%;
+	right:50%;
+	}
+.flex-next, .flex-prev{
+	display: none;
+}
+
+	.main .subdocs .download-bedita a h1, .main .subdocs .extend a h1, .main .subdocs .plugin-modules a h1, .main .subdocs .frontend-themes a h1 {
+		color:#acc700 !important;
+	}
+
+	 .schema-and-database-files{
+ 		width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+ }
+	
+
+		/*...........................................    
+
+				TRY BEDITA MIN 1745PX
+
+...........................................*/
+
+ .textSection h1 {
+		font-size: 2.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#c972a7;
+	}	
+
+
+	.textSection h2, .textSection p, .textSection ul li, .textSection ol li{
+		font-size: 1.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	 .textSection h4 {
+		padding-top: 2%;
+		font-size: 1.6em;
+	}
+
+	.textSection ol, .textSection ul {
+		list-style: none;
+	}
+
+	.overview ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.textSection a{
+		color:#c972a7;
+	}
+
+	.overview p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.textSection{
+		max-width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+
+	.main .subdocs .documentation a h1, .main .subdocs .frontend a h1, .main .subdocs .backend a h1, .main .subdocs .bedita-3-2-populus a h1, .main .subdocs .changelog a h1{
+		color:#c972a7 !important;
+	}
+
+	.main .subdocs ul{
+		list-style: none;
+	}
+
+	.main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+/*...........................................    
+
+				MENU RESPONSIVE MIN 1745PX
+
+...........................................*/
+
+	.headmenu{position:fixed; right:-320px; background: #e6e6e6; height: 100%; width: 395px; z-index: 2002;}
+	.menuP{display: none;}
+	.github{display:none;}
+	.banner{display:none;}
+	.toggle-menu{	
+	background: url('../img/button.png') no-repeat;
+	width:35px;
+	height:31px;
+	margin: 25px 0 3% 6%;
+	display:block;
+}
+
+
+
+/*...........................................    
+
+				DOWNLOAD MIN 1745PX
+
+...........................................*/
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+	
+	.be-download-2 h1, .translation-packages h1, .installation-and-management h1, .glossary h1, .ticket h1, .installation h1, .abrasive h1, .altruism h1, .astroturfd h1, .bookish h1, .mimbo h1, .zenlike h1  {
+		font-size: 2.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #acc700;
+	}	
+
+
+	.be-download-2 h2, .be-download-2 p, .be-download-2 ul li, .be-download-2 ol li,
+	.translation-packages h2, .translation-packages p, .translation-packages ul li, .translation-packages ol li, 
+	.glossary h2, .glossary p, .glossary ul li, .glossary ol li,
+	.installation-and-management h2, .installation-and-management p, .installation-and-management ul li, .installation-and-management ol li,
+	.ticket h2, .ticket p, .ticket ul li, .ticket ol li,
+	.installation h2, .installation p, .installation ul li, .installation ol li,
+	.abrasive h2, .abrasive p, .abrasive ul li, .abrasive ol li,
+	.astroturfd h2, .astroturfd p, .astroturfd ul li, .astroturfd ol li,
+	.altruism h2, .altruism p, .altruism ul li, .altruism ol li,
+	.bookish h2, .bookish p, .bookish ul li, .bookish ol li,
+	.mimbo h2, .mimbo p, .mimbo ul li, .mimbo ol li,
+	.zenlike h2, .zenlike p, .zenlike ul li, .zenlike ol li{
+		font-size: 1.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.be-download-2 a, .translation-packages a, .installation-and-management a, .glossary a, .ticket a, .installation a, .abrasive a, .altruism a, .astroturfd a, .bookish a, .mimbo a, .zenlike a {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#acc700;
+		line-height: 1.5em;
+	}
+
+	.be-download-2, .translation-packages, .installation-and-management, .glossary, .ticket, .installation, .abrasive, .altruism, .astroturfd, .bookish, .mimbo, .zenlike {
+		max-width:69%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	.be-download-2 h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.be-download-2 p:nth-child(3) a{
+		color:black;
+		font-weight: bold !important;
+	}
+
+	.puls a{
+		background: url('../img/download-ico.png') no-repeat;
+		content:'';
+		display: block;
+		width:60px;
+		height:60px;
+		text-indent:-9999px;
+		float:left;
+		margin: 2.2% 3% 0 3%;
+
+	}
+
+	.be-download-2 p:nth-child(6){
+		display: inline-block;
+		margin-top: 1.2%;
+	}
+
+
+/*...........................................    
+
+				TRY BEDITA MAX 1265PX
+
+...........................................*/
+
+ 	.try-bedita h1 {
+		font-size: 2.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#ff7500;
+	}	
+
+
+	.try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li{
+		font-size: 1.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	.try-bedita ul {
+		list-style: none;
+	}
+
+	.try-bedita ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.try-bedita a{
+		background: url('')!important;
+		color:#ff7500;
+	}
+
+	.try-bedita p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.try-bedita{
+		max-width:66%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	
+
+	.try-bedita h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.abstract{
+		padding-bottom: 6%;
+	}
+
+
+/*...........................................    
+
+				NEWS MAX 1265PX
+
+...........................................*/
+
+.news div a:nth-child(9){
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-size:1.3em;
+	}
+
+	.single-news ul{
+		list-style: none;
+	}
+
+	.single-news p:nth-child(9){
+		padding-top: 2%;
+	}
+
+	.single-news ul li{
+		padding: 1%;
+	}
+
+	.single-news ul:nth-child(10) li a{
+		font-weight: bold;
+		font-size: 1.2em;
+
+	}
+
+	.single-news a{
+		color:black;
+		font-weight: bold;
+
+	}
+	.single-news ul:nth-child(10) li{
+		padding:2%;
+	}
+
+	.sub-par{
+		float:left;
+		display: block;
+		width:100%;
+		padding:0 0 5% 5%;
+	}
+
+	.sub-par ul{
+		list-style: none;
+	}
+
+	.sub-par ul li a{
+		font-style: none;
+		color: #00a4d1;
+		font-size: 1.4em;
+	}
+
+	.sub-par h2{
+		font-size: 1.3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.single-news ul{
+		list-style: none;
+	}
+
+	.single-news p:nth-child(9){
+		padding-top: 2%;
+	}
+
+	.single-news ul li{
+		padding: 1%;
+	}
+
+	.single-news ul:nth-child(10) li a{
+		font-weight: bold;
+		font-size: 1.2em;
+
+	}
+
+	.single-news a{
+		color:black;
+		font-weight: bold;
+
+	}
+	.single-news ul:nth-child(10) li{
+		padding:2%;
+	}
+
+	.sub-par{
+		float:left;
+		display: block;
+		width:100%;
+		padding:0 0 5% 5%;
+	}
+
+	.sub-par ul{
+		list-style: none;
+	}
+
+	.sub-par ul li a{
+		font-style: none;
+		color: #00a4d1;
+		font-size: 1.4em;
+	}
+
+	.sub-par h2{
+		font-size: 1.3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.news h1 {
+		font-size: 2.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #00a4d1;
+	}	
+
+
+	.news h2, .news p, .continue, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li{
+		font-size: 1.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+
+	
+	.content-main .subdocs, .content-main .subdocs-download{
+		float:left;
+		width:355px;
+		display: inline-block;
+		margin-top:1%;
+		padding:0 17% 0 1%;
+		margin-left: 5%;
+		border-left:2px solid #535353;
+		margin-bottom: 8%;
+	}
+
+	.content-main .subdocs ul{
+		list-style: none;
+	}
+
+	.content-main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.js-seemore-news{
+		color:black;
+		font-size: 1.3em;
+	}
+
+
+
+	.news{
+		max-width:66%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	.news h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		padding-bottom: 3%;
+
+	}
+
+	.news div:first-child a{
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(3) a{
+		font-style: none;
+		color:#c972a7;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	
+
+	.news h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news p, .news h2, .news ul li, .news ol li {
+		font-size: 1.3em;
+	}
+
+
+	.try{
+		background-color: #ff7500;
+		width:250px;
+		height: 60px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.9em;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		margin-right: 8%;
+		
+	}
+
+	.try a, .download-it a {
+		color:white;
+	}
+
+	.download-it{
+		background-color: #acc600;
+		width:250px;
+		height: 60px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.9em;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+	}
+
+	.bottoni{
+		height: auto;
+		width:100%;
+		padding-top: 2%;
+		height:120px;
+	}
+
+	.quick-few-steps{
+		max-width: 70%;
+		padding:0 0 5% 5%;
+	}
+
+	.quick-few-steps p{
+		text-align: center;
+		color:#717171;
+
+	}
+
+	.what-does-bedita{
+	max-width:70%;
+	height:auto;
+	padding: 0 0% 2% 5%;
+}
+
+	.what-does-bedita{
+	max-width:70%;
+	height:auto;
+	padding: 0 0% 2% 5%;
+}
+
+	.licensing{
+		background: url('../img/licensing.png') no-repeat #2bb2d9;
+		padding: 5% 0% 5% 5%;
+		background-position: 78% 61%;
+		width:100%;
+		height: auto;
+	}
+
+	.licensing{
+		text-align: left;
+		padding: 0 0 5% 0;
+	}
+	
+	.licensing p, .licensing h1{
+		width: 50%;
+		margin-left: 5%;
+	}
+
+
+	.logo img{
+			float:right;
+			padding-right:10%;
+			padding-top:3%;
+	}
+
+	.what-does-bedita h1, .closer-look h1, .licensing h1 {
+		font-size: 4.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+	}	
+
+
+.what-does-bedita h2, .what-does-bedita p, .what-does-bedita ul li, .what-does-bedita ol li, .closer-look h2, .closer-look p, .closer-look ul li, .closer-look ol li, .licensing h2, .licensing p, .licensing ul li, .licensing ol li{	
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-style: none;
+		color:#535353;
+		line-height: 1.5em;
+
+	}
+
+	.what-does-bedita div:nth-child(9){
+		position:relative;
+		width: 25%;
+		position: absolute;
+		bottom:32%;
+		right:19%;
+		display: none;
+	}
+
+	.footer {
+		clear:both;
+		background-color:#343434;
+		height:350px;
+	}
+
+	.footel {
+		width:20%;
+		max-height:33%;
+		float:left;
+		height:auto;
+		padding:0 2%;
+	}
+
+	 
+	.footel LI {
+		list-style-type:none;
+		font-family:"Arial",
+		sans-serif;
+		font-size:12px;
+		line-height:1.8em;
+		padding:5px 10px 0px 10px;
+		color:white; font-size: 1em;
+		width:85%;
+	}
+
+	.footel li p > a {
+		background-color:#343434;
+		background-image:url('');
+	}
+
+	.footer > .footel > li > a > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+	.footer > .footel > li > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+
+	.footel LI A {
+		text-decoration:none;
+		color:white;
+	}
+
+	.footel LI A:hover {
+		color:white;
+}
+
+	.footer > .footel:nth-child(4) li{
+		padding-top:5%;
+	}
+
+	.sviluppato{
+		background: url('../img/sviluppato.png') no-repeat;
+		height:110px;
+		width:100%;
+		position:relative;
+		bottom:15%;
+	}
+
+	.closer-look{
+		background: url('../img/a-closer-look.jpg') no-repeat;
+		width:100%;
+		height:650px;
+
+	}
+
+	.closer-look h1, .closer-look p, .closer-look a{
+		color:white;
+	}
+
+	.closer-look h1{
+		padding:0 35% 0 15%;
+		text-align: center;
+	}
+
+	.closer-look p{
+		padding:0 35% 0 15%;
+		text-align: center;
+
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	.be-download-2 p:nth-child(4){
+		height:30px;
+	}
+
+
+	.quick-few-steps h1{
+		font-size: 3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#717171;
+		padding-left: 29%;
+		padding-top: 2.5%;
+	}
+
+	.thickbox img{
+	position: relative;
+	left: 20%;
+	right:50%;
+	}
+.flex-next, .flex-prev{
+	display: none;
+}
+
+
+ .schema-and-database-files{
+ 		width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+ }
+	
+
+.main .subdocs .download-bedita a h1, .main .subdocs .extend a h1, .main .subdocs .plugin-modules a h1, .main .subdocs .frontend-themes a h1 {
+		color:#acc700 !important;
+	}
+		/*...........................................    
+
+				TRY BEDITA MIN 1745PX
+
+...........................................*/
+
+ .textSection h1 {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#c972a7;
+
+	}	
+
+
+		.textSection h2, .textSection p, .textSection ul li, .textSection ol li{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	 .textSection h4 {
+		padding-top: 2%;
+		font-size: 1.4em;
+	}
+
+	.textSection ol, .textSection ul {
+		list-style: none;
+	}
+
+	.overview ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.textSection a{
+		color:#c972a7;
+	}
+
+	.overview p:nth-child(13){
+		padding-top:2%;
+	}
+
+
+	.textSection{
+		max-width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+
+	.main .subdocs .documentation a h1, .main .subdocs .frontend a h1, .main .subdocs .backend a h1, .main .subdocs .bedita-3-2-populus a h1, .main .subdocs .changelog a h1{
+		color:#c972a7 !important;
+	}
+
+	.main .subdocs ul{
+		list-style: none;
+	}
+
+	.main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+	/*...........................................    
+
+				MENU RESPONSIVE MIN 1745PX
+
+...........................................*/
+
+	.headmenu{position:fixed; right:-320px; background: #e6e6e6; height: 100%; width: 395px; z-index: 2002;}
+	.menuP{display: none;}
+	.github{display:none;}
+	.banner{display:none;}
+
+
+
+/*...........................................    
+
+				DOWNLOAD MIN 1745PX
+
+...........................................*/
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+	
+	.be-download-2 h1, .translation-packages h1, .installation-and-management h1, .glossary h1, .ticket h1, .installation h1, .abrasive h1, .altruism h1, .astroturfd h1, .bookish h1, .mimbo h1, .zenlike h1  {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #acc700;
+	}	
+
+
+	.be-download-2 h2, .be-download-2 p, .be-download-2 ul li, .be-download-2 ol li,
+	.translation-packages h2, .translation-packages p, .translation-packages ul li, .translation-packages ol li, 
+	.glossary h2, .glossary p, .glossary ul li, .glossary ol li,
+	.installation-and-management h2, .installation-and-management p, .installation-and-management ul li, .installation-and-management ol li,
+	.ticket h2, .ticket p, .ticket ul li, .ticket ol li,
+	.installation h2, .installation p, .installation ul li, .installation ol li,
+	.abrasive h2, .abrasive p, .abrasive ul li, .abrasive ol li,
+	.astroturfd h2, .astroturfd p, .astroturfd ul li, .astroturfd ol li,
+	.altruism h2, .altruism p, .altruism ul li, .altruism ol li,
+	.bookish h2, .bookish p, .bookish ul li, .bookish ol li,
+	.mimbo h2, .mimbo p, .mimbo ul li, .mimbo ol li,
+	.zenlike h2, .zenlike p, .zenlike ul li, .zenlike ol li{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.be-download-2 a, .translation-packages a, .installation-and-management a, .glossary a, .ticket a, .installation a, .abrasive a, .altruism a, .astroturfd a, .bookish a, .mimbo a, .zenlike a {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#acc700;
+		line-height: 1.5em;
+	}
+
+	.be-download-2, .translation-packages, .installation-and-management, .glossary, .ticket, .installation, .abrasive, .altruism, .astroturfd, .bookish, .mimbo, .zenlike {
+		max-width:69%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	.be-download-2 h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.be-download-2 p:nth-child(3) a{
+		color:black;
+		font-weight: bold !important;
+	}
+
+	.puls a{
+		background: url('../img/download-ico.png') no-repeat;
+		content:'';
+		display: block;
+		width:60px;
+		height:60px;
+		text-indent:-9999px;
+		float:left;
+		margin: 2.2% 3% 0 3%;
+
+	}
+
+	.be-download-2 p:nth-child(6){
+		display: inline-block;
+		margin-top: 1.2%;
+	}
+
+/*...........................................    
+
+				TRY BEDITA MAX 1024PX
+
+...........................................*/
+
+ 	.try-bedita h1 {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#ff7500;
+	}	
+
+
+	.try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	.try-bedita ul {
+		list-style: none;
+	}
+
+	.try-bedita ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.try-bedita a{
+		background: url('')!important;
+		color:#ff7500;
+	}
+
+	.try-bedita p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.try-bedita{
+		max-width:70%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	
+
+	.try-bedita h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+
+	.abstract{
+		padding-bottom: 8%;
+	}
+/*...........................................    
+
+				NEWS MAX 1024PX
+
+...........................................*/
+
+	.news div a:nth-child(9){
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-size:1.2em;
+	}
+
+	.single-news ul{
+		list-style: none;
+	}
+
+	.single-news p:nth-child(9){
+		padding-top: 2%;
+	}
+
+	.single-news ul li{
+		padding: 1%;
+	}
+
+	.single-news ul:nth-child(10) li a{
+		font-weight: bold;
+		font-size: 1.2em;
+
+	}
+
+	.single-news a{
+		color:black;
+		font-weight: bold;
+
+	}
+	.single-news ul:nth-child(10) li{
+		padding:2%;
+	}
+
+	.sub-par{
+		float:left;
+		display: block;
+		width:100%;
+		padding:0 0 5% 5%;
+	}
+
+	.sub-par ul{
+		list-style: none;
+	}
+
+	.sub-par ul li a{
+		font-style: none;
+		color: #00a4d1;
+		font-size: 1.4em;
+	}
+
+	.sub-par h2{
+		font-size: 1.3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.single-news ul{
+		list-style: none;
+	}
+
+	.single-news p:nth-child(9){
+		padding-top: 2%;
+	}
+
+	.single-news ul li{
+		padding: 1%;
+	}
+
+	.single-news ul:nth-child(10) li a{
+		font-weight: bold;
+		font-size: 1.2em;
+
+	}
+
+	.single-news a{
+		color:black;
+		font-weight: bold;
+
+	}
+	.single-news ul:nth-child(10) li{
+		padding:2%;
+	}
+
+	.sub-par{
+		float:left;
+		display: block;
+		width:100%;
+		padding:0 0 5% 5%;
+	}
+
+	.sub-par ul{
+		list-style: none;
+	}
+
+	.sub-par ul li a{
+		font-style: none;
+		color: #00a4d1;
+		font-size: 1.4em;
+	}
+
+	.sub-par h2{
+		font-size: 1.3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.news h1 {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+	}	
+
+
+	.news h2, .news p, .continue, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+
+	
+	.content-main .subdocs. .content-main .subdocs-download{
+		float:left;
+		width:400px;
+		display: inline-block;
+		margin-top:1%;
+		padding:0 17% 0 1%;
+		margin-left: 5%;
+		border-left:2px solid #535353;
+		margin-bottom: 10%;
+	}
+
+	.content-main .subdocs ul{
+		list-style: none;
+	}
+
+	.content-main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+	.js-seemore-news{
+		color:black;
+		font-size: 1.3em;
+	}
+
+
+
+	.news{
+		max-width:70%;
+		height:auto;
+		padding: 0 0% 0% 5%;
+		float:left;
+	}
+
+
+	.news div:first-child a{
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(3) a{
+		font-style: none;
+		color:#c972a7;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	
+
+	.news h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news p, .news h2, .news ul li, .news ol li {
+		font-size: 1.3em;
+	}
+
+
+.try{
+		background-color: #ff7500;
+		width:250px;
+		height: 60px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.9em !important;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		margin-right: 8%;
+		text-align: center !important;
+		
+	}
+
+	.try a, .download-it a {
+		color:white;
+	}
+
+	.download-it{
+		background-color: #acc600;
+		width:250px;
+		height: 60px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.9em !important;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		text-align: center !important;
+
+	}
+
+	.bottoni{
+		height: auto;
+		width:100%;
+		padding-top: 2%;
+		height:120px;
+	}
+
+.quick-few-steps{
+	max-width: 70%;
+	padding:0 0 5% 5%;
+}
+
+.quick-few-steps p{
+	text-align: center;
+	color:#717171;
+
+}
+
+	.what-does-bedita{
+	max-width:70%;
+	height:auto;
+	padding: 0 0% 2% 5%;
+}
+
+	.what-does-bedita{
+	max-width:75%;
+	height:auto;
+	padding: 0 0% 2% 5%;
+}
+	.licensing{
+		background: #2bb2d9;
+		padding: 5% 0% 5% 5%;
+		background-position: 64% 61%;
+		width:100%;
+		height: auto;
+	}
+
+
+	.licensing{
+		text-align: left;
+		padding: 0 0 10% 0;
+	}
+	
+	.licensing p, .licensing h1{
+		width: 70%;
+		margin-left: 5%;
+	}
+
+	.licensing h1{
+		text-align: left;
+		width:70%;
+	}
+
+
+	.logo img{
+			float:right;
+			padding-right:14%;
+			padding-top:4%;
+	}
+
+	.what-does-bedita h1, .closer-look h1, .licensing h1 {
+		font-size: 3.6em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+	}	
+
+
+	.what-does-bedita h2, .what-does-bedita p, .what-does-bedita ul li, .what-does-bedita ol li, .closer-look h2, .closer-look p, .closer-look ul li, .closer-look ol li, .licensing h2, .licensing p, .licensing ul li, .licensing ol li{
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-style: none;
+		color:#535353;
+		line-height: 1.5em;
+		text-align: left;
+
+	}
+
+	.what-does-bedita div:nth-child(9){
+		position:relative;
+		width: 25%;
+		position: absolute;
+		bottom:32%;
+		right:19%;
+		display: none;
+	}
+
+	.footer {
+		clear:both;
+		background-color:#343434;
+		height:370px;
+	}
+
+	.footel {
+		width:22%;
+		max-height:33%;
+		float:left;
+		height:auto;
+		padding:0 2%;
+	}
+
+	 
+	.footel LI {
+		list-style-type:none;
+		font-family:"Arial",
+		sans-serif;
+		font-size:12px;
+		line-height:1.8em;
+		padding:5px 10px 0px 10px;
+		color:white;
+		font-size: 1em;
+		width:85%;
+	}
+
+	.footel li p > a {
+		background-color:#343434;
+		background-image:url('');
+	}
+
+	.footer > .footel > li > a > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+	.footer > .footel > li > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+
+	.footel LI A {
+		text-decoration:none;
+		color:white;
+	}
+
+	.footel LI A:hover {
+		color:white;
+	}
+
+
+
+	.footer > .footel:nth-child(4) li{
+		padding-top:5%;
+	}
+
+	.sviluppato{
+		background: url('../img/sviluppato.png') no-repeat;
+		height:110px;
+		width:100%;
+		position:relative;
+		bottom:15%;
+	}
+
+	.closer-look{
+		background: url('../img/a-closer-look.jpg') no-repeat;
+		width:100%;
+		height:650px;
+
+	}
+
+	.closer-look h1, .closer-look p, .closer-look a{
+		color:white;
+	}
+
+	.closer-look h1{
+		padding:0 35% 0 15%;
+		text-align: center;
+	}
+
+	.closer-look p{
+		padding:0 35% 0 15%;
+		text-align: center;
+
+	}
+
+}
+ 
+@media screen and (max-width: 768px) {
+
+	.be-download-2 p:nth-child(4){
+		height:30px;
+	}
+
+
+		.quick-few-steps h1{
+		font-size: 2.7em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#717171;
+		padding-left: 29%;
+		padding-top: 2.5%;
+	}
+
+	.thickbox img{
+	position: relative;
+	left: 9%;
+	right:50%;
+	}
+.flex-next, .flex-prev{
+	display: none;
+}
+
+	.main .subdocs .download-bedita a h1, .main .subdocs .extend a h1, .main .subdocs .plugin-modules a h1, .main .subdocs .frontend-themes a h1 {
+		color:#acc700 !important;
+	}
+
+		/*...........................................    
+
+				TRY BEDITA MIN 1745PX
+
+...........................................*/
+
+ .textSection h1 {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#c972a7;
+	}	
+
+	 .schema-and-database-files{
+ 		width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+ }
+	
+
+
+		.textSection h2, .textSection p, .textSection ul li, .textSection ol li{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	 .textSection h4 {
+		padding-top: 2%;
+		font-size: 1.4em;
+	}
+
+	.textSection ol, .textSection ul {
+		list-style: none;
+	}
+
+	.overview ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.textSection a{
+		color:#c972a7;
+	}
+
+	.overview p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.textSection{
+		max-width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+
+	.main .subdocs .documentation a h1, .main .subdocs .frontend a h1, .main .subdocs .backend a h1, .main .subdocs .bedita-3-2-populus a h1, .main .subdocs .changelog a h1{
+		color:#c972a7 !important;
+	}
+
+	.main .subdocs ul{
+		list-style: none;
+	}
+
+	.main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.top{
+		height:200px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:200px;
+		width:100%;
+	}
+	.logo a{
+		height:200px;
+		width:100%;
+	}
+
+	/*...........................................    
+
+				MENU RESPONSIVE MIN 1745PX
+
+...........................................*/
+
+	.headmenu{position:fixed; right:-320px; background: #e6e6e6; height: 100%; width: 395px; z-index: 2002;}
+	.menuP{display: none;}
+	.github{display:none;}
+	.banner{display:none;}
+	.toggle-menu{	
+	background: url('../img/button.png') no-repeat;
+	width:35px;
+	height:31px;
+	margin: 25px 0 3% 6%;
+	display:block;
+}
+
+
+
+/*...........................................    
+
+				DOWNLOAD MIN 1745PX
+
+...........................................*/
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+	
+	.be-download-2 h1, .translation-packages h1, .installation-and-management h1, .glossary h1, .ticket h1, .installation h1, .abrasive h1, .altruism h1, .astroturfd h1, .bookish h1, .mimbo h1, .zenlike h1  {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #acc700;
+	}	
+
+
+	.be-download-2 h2, .be-download-2 p, .be-download-2 ul li, .be-download-2 ol li,
+	.translation-packages h2, .translation-packages p, .translation-packages ul li, .translation-packages ol li, 
+	.glossary h2, .glossary p, .glossary ul li, .glossary ol li,
+	.installation-and-management h2, .installation-and-management p, .installation-and-management ul li, .installation-and-management ol li,
+	.ticket h2, .ticket p, .ticket ul li, .ticket ol li,
+	.installation h2, .installation p, .installation ul li, .installation ol li,
+	.abrasive h2, .abrasive p, .abrasive ul li, .abrasive ol li,
+	.astroturfd h2, .astroturfd p, .astroturfd ul li, .astroturfd ol li,
+	.altruism h2, .altruism p, .altruism ul li, .altruism ol li,
+	.bookish h2, .bookish p, .bookish ul li, .bookish ol li,
+	.mimbo h2, .mimbo p, .mimbo ul li, .mimbo ol li,
+	.zenlike h2, .zenlike p, .zenlike ul li, .zenlike ol li{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.be-download-2 a, .translation-packages a, .installation-and-management a, .glossary a, .ticket a, .installation a, .abrasive a, .altruism a, .astroturfd a, .bookish a, .mimbo a, .zenlike a {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#acc700;
+		line-height: 1.5em;
+	}
+
+	.be-download-2, .translation-packages, .installation-and-management, .glossary, .ticket, .installation, .abrasive, .altruism, .astroturfd, .bookish, .mimbo, .zenlike {
+		max-width:69%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	.be-download-2 h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.be-download-2 p:nth-child(3) a{
+		color:black;
+		font-weight: bold !important;
+	}
+
+	.puls a{
+		background: url('../img/download-ico.png') no-repeat;
+		content:'';
+		display: block;
+		width:60px;
+		height:60px;
+		text-indent:-9999px;
+		float:left;
+		margin: 2.2% 3% 0 3%;
+
+	}
+
+	.be-download-2 p:nth-child(6){
+		display: inline-block;
+		margin-top: 1.2%;
+	}
+
+/*...........................................    
+
+				TRY BEDITA MAX 1024PX
+
+...........................................*/
+
+ 	.try-bedita h1 {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#ff7500;
+	}	
+
+
+	.try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	.try-bedita ul {
+		list-style: none;
+	}
+
+	.try-bedita ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.try-bedita a{
+		background: url('')!important;
+		color:#ff7500;
+	}
+
+	.try-bedita p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.try-bedita{
+		max-width:70%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	
+
+	.try-bedita h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+
+	.abstract{
+		padding-bottom: 15%;
+	}
+/*...........................................    
+
+				NEWS MAX 768PX
+
+...........................................*/
+
+	.news h1 {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+	}	
+
+
+	.news h2, .news p, .continue, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li{
+		font-size: 1.4em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+
+	
+	.content-main .subdocs, .content-main .subdocs-download{
+		float:left;
+		width:365px;
+		display: inline-block;
+		margin-top:1%;
+		padding:0 17% 0 1%;
+		margin-left: 5%;
+		border-left:2px solid #535353;
+		margin-bottom: 18%;
+	}
+
+	.content-main .subdocs ul{
+		list-style: none;
+	}
+
+	.content-main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.js-seemore-news{
+		color:black;
+		font-size: 1.3em;
+	}
+
+
+
+	.news{
+		max-width:70%;
+		height:auto;
+		padding: 0 0% 0% 5%;
+		float:left;
+	}
+
+	.news h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		padding-bottom: 3%;
+
+	}
+
+	.news div:first-child a{
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(3) a{
+		font-style: none;
+		color:#c972a7;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	
+
+	.news h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news p, .news h2, .news ul li, .news ol li {
+		font-size: 1.3em;
+}
+	.try{
+		background-color: #ff7500;
+		width:180px;
+		height: 50px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.7em !important;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		margin-right: 8%;
+		text-align: center !important;
+		margin-top: 2%;
+	}
+
+	.try a, .download-it a {
+		color:white;
+	}
+
+	.download-it{
+		background-color: #acc600;
+		width:180px;
+		height: 50px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.7em !important;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		text-align: center !important;
+		margin-top: 2%;
+
+	}
+
+	.bottoni{
+		height: auto;
+		width:100%;
+		padding-top: 2%;
+		height:120px;
+
+	}
+
+	.quick-few-steps{
+	max-width: 70%;
+	padding:0 0 5% 5%;
+}
+
+.quick-few-steps p{
+	text-align: center;
+	color:#717171;
+
+}
+
+	.what-does-bedita{
+	max-width:70%;
+	height:auto;
+	padding: 0 0% 2% 5%;
+}
+
+	.licensing{
+		background-color:#2bb2d9;
+		padding: 5% 0% 5% 5%;
+		width:100%;
+		height: auto;
+	}
+
+	.licensing{
+		text-align: left;
+		padding: 0 0 5% 0%;
+	}
+	
+	.licensing p, .licensing h1{
+		width: 70%;
+		margin-left: 5%;
+	}
+
+
+	.licensing h1{
+		text-align: left;
+		width:70%;
+	}
+
+	.licensing{
+		padding-bottom: 10%;
+}
+
+
+	.logo img{
+			float:right;
+			padding-right:25%;
+			padding-top:5%;
+	}
+
+	.what-does-bedita h1, .closer-look h1, .licensing h1  {
+		font-size: 3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+	}	
+
+
+	.what-does-bedita h2, .what-does-bedita p, .what-does-bedita ul li, .what-does-bedita ol li, .closer-look h2, .closer-look p, .closer-look ul li, .closer-look ol li, .licensing h2, .licensing p, .licensing ul li, .licensing ol li{		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-style: none;
+		color:#535353;
+		line-height: 1.5em;
+		
+
+	}
+
+	.what-does-bedita div:nth-child(9){
+		position:relative;
+		width: 25%;
+		position: absolute;
+		bottom:32%;
+		right:19%;
+		display: none;
+	}
+
+.footel:nth-child(2){
+	display: none;
+		}
+
+	.footel:nth-child(3){
+		width:40%;
+	}
+
+	.footer {
+		clear:both;
+		background-color:#343434;
+		height:618px;
+	}
+
+	.footel {
+		width:40%;
+		max-height:33%;
+		float:left;
+		height:auto;
+		padding:2% 2%;
+	}
+
+	 
+	.footel LI {
+		list-style-type:none;
+		font-family:"Arial",
+		sans-serif;
+		font-size:12px;
+		line-height:1.8em;
+		padding:15px 10px 0px 10px;
+		color:white; font-size: 1em;
+		width:67%;
+	}
+
+	.footel li p > a {
+		background-color:#343434;
+		background-image:url('');
+	}
+
+	.footer > .footel > li > a > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+	.footer > .footel > li > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+
+	.footel LI A {
+		text-decoration:none;
+		color:white;
+	}
+
+	.footel LI A:hover {
+		color:white;
+	}
+
+
+
+	.footer > .footel:nth-child(4) li{
+		padding-top:5%;
+	}
+
+
+	.footer > .footel:nth-child(4) li:nth-child(1){
+		padding-top:0%;
+	}
+
+	.sviluppato{
+		background: url('../img/sviluppato.png') no-repeat;
+		height:110px;
+		width:100%;
+		position:relative;
+		bottom:12%;
+	}
+
+	.closer-look{
+		background: url('../img/a-closer-look.jpg') no-repeat;
+		width:100%;
+		height:650px;
+
+	}
+
+	.closer-look h1, .closer-look p, .closer-look a{
+		color:white;
+	}
+
+	.closer-look h1{
+		padding:0 35% 0 15%;
+		text-align: center;
+	}
+
+	.closer-look p{
+		padding:0 35% 0 15%;
+		text-align: center;
+
+	}
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+.thickbox img{
+	width:auto;
+
+	}
+	
+.flex-next, .flex-prev{
+	display: none;
+}
+
+	.be-download-2 p:nth-child(4){
+		height:30px;
+	}
+
+	.flexslider{
+		width:92%;
+	}
+
+	.flexslider p{
+		font-size: 1.2em;
+	}
+
+
+	.quick-few-steps h1{
+		font-size: 2.7em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#717171;
+		padding-left: 29%;
+		padding-top: 2.5%;
+	}
+
+.flex-next, .flex-prev{
+	display: none;
+}
+
+	.main .subdocs .download-bedita a h1, .main .subdocs .extend a h1, .main .subdocs .plugin-modules a h1, .main .subdocs .frontend-themes a h1 {
+		color:#acc700 !important;
+	}
+
+		/*...........................................    
+
+				TRY BEDITA MIN 1745PX
+
+...........................................*/
+
+ .textSection h1 {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#c972a7;
+	}	
+
+
+		.textSection h2, .textSection p, .textSection ul li, .textSection ol li{
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		
+	}
+
+	 .textSection h4 {
+		padding-top: 2%;
+		font-size: 1.2em;
+	}
+
+	 .schema-and-database-files{
+ 		width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+ }
+	
+
+	.textSection ol, .textSection ul {
+		list-style: none;
+	}
+
+	.overview ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.textSection a{
+		color:#c972a7;
+	}
+
+	.overview p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	 
+	
+	.textSection{
+		max-width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+
+	.main .subdocs .documentation a h1, .main .subdocs .frontend a h1, .main .subdocs .backend a h1, .main .subdocs .bedita-3-2-populus a h1, .main .subdocs .changelog a h1{
+		color:#c972a7 !important;
+	}
+
+	.main .subdocs ul{
+		list-style: none;
+	}
+
+	.main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.top{
+		height:180px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:180px;
+		width:100%;
+	}
+	.logo a{
+		height:180px;
+		width:100%;
+	}
+
+/*...........................................    
+
+				MENU RESPONSIVE MIN 480PX
+
+...........................................*/
+
+.headmenu{position:fixed; right:-320px; background: #e6e6e6; height: 100%; width: 395px; z-index: 2002;}
+.menuP{display:none;}
+.github{display:none;}
+.banner{display:none;}
+.toggle-menu{	
+	background: url('../img/button.png') no-repeat;
+	width:35px;
+	height:31px;
+	margin: 25px 0 3% 6%;
+	display:block;
+}
+
+
+/*...........................................    
+
+				DOWNLOAD MIN 1745PX
+
+...........................................*/
+
+
+	.top{
+		height:250px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:250px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+	
+	.be-download-2 h1, .translation-packages h1, .installation-and-management h1, .glossary h1, .ticket h1, .installation h1, .abrasive h1, .altruism h1, .astroturfd h1, .bookish h1, .mimbo h1, .zenlike h1  {
+		font-size: 1.9em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color: #acc700;
+	}	
+
+
+	.be-download-2 h2, .be-download-2 p, .be-download-2 ul li, .be-download-2 ol li,
+	.translation-packages h2, .translation-packages p, .translation-packages ul li, .translation-packages ol li, 
+	.glossary h2, .glossary p, .glossary ul li, .glossary ol li,
+	.installation-and-management h2, .installation-and-management p, .installation-and-management ul li, .installation-and-management ol li,
+	.ticket h2, .ticket p, .ticket ul li, .ticket ol li,
+	.installation h2, .installation p, .installation ul li, .installation ol li,
+	.abrasive h2, .abrasive p, .abrasive ul li, .abrasive ol li,
+	.astroturfd h2, .astroturfd p, .astroturfd ul li, .astroturfd ol li,
+	.altruism h2, .altruism p, .altruism ul li, .altruism ol li,
+	.bookish h2, .bookish p, .bookish ul li, .bookish ol li,
+	.mimbo h2, .mimbo p, .mimbo ul li, .mimbo ol li,
+	.zenlike h2, .zenlike p, .zenlike ul li, .zenlike ol li{
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.be-download-2 a, .translation-packages a, .installation-and-management a, .glossary a, .ticket a, .installation a, .abrasive a, .altruism a, .astroturfd a, .bookish a, .mimbo a, .zenlike a {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#acc700;
+		line-height: 1.5em;
+	}
+
+	.be-download-2, .translation-packages, .installation-and-management, .glossary, .ticket, .installation, .abrasive, .altruism, .astroturfd, .bookish, .mimbo, .zenlike {
+		max-width:69%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	.be-download-2 h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.be-download-2 p:nth-child(3) a{
+		color:black;
+		font-weight: bold !important;
+	}
+
+	.puls a{
+		background: url('../img/download-ico.png') no-repeat;
+		content:'';
+		display: block;
+		width:60px;
+		height:60px;
+		text-indent:-9999px;
+		float:left;
+		margin: 2.2% 3% 0 3%;
+
+	}
+
+	.be-download-2 p:nth-child(6){
+		display: inline-block;
+		margin-top: 1.2%;
+	}
+
+/*...........................................    
+
+				TRY BEDITA MAX 480PX
+
+...........................................*/
+
+ 	.try-bedita h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#ff7500;
+		font-size: 1.9em;
+	}	
+
+
+	.try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li{
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		text-align: justify;
+		
+	}
+
+	.try-bedita ul {
+		list-style: none;
+	}
+
+	.try-bedita ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.try-bedita a{
+		background: url('')!important;
+		color:#ff7500;
+	}
+
+	.try-bedita p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.try-bedita{
+		max-width:70%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	
+
+	.try-bedita h3{
+		font-style: none;
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.abstract{
+		padding-bottom: 20%;
+	}
+
+/*...........................................    
+
+				NEWS MAX 480PX
+
+...........................................*/
+
+	.news h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		line-height: 1em;
+		padding-bottom: 5%;
+		font-size: 1.9em;
+	}	
+
+
+	.news h2, .news p, .continue, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li{
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-style: none;
+		color:#535353;
+		line-height: 1.5em;
+		text-align: justify;
+	}
+
+
+	
+	.content-main .subdocs, .content-main .subdocs-download{
+		float:left;
+		width:365px;
+		display: inline-block;
+		padding-left: 5%;
+		margin-bottom: 20%;
+	}
+
+	.content-main .subdocs ul{
+		list-style: none;
+	}
+
+	.content-main .subdocs ul li a{
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.js-seemore-news{
+		color:black;
+		font-size: 1.3em;
+	}
+
+
+	.news{
+		max-width:70%;
+		height:auto;
+		padding: 0 0% 0% 5%;
+		float:left;
+	}
+
+	.news h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		padding-bottom: 3%;
+
+	}
+
+	.news div:first-child a{
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(3) a{
+		font-style: none;
+		color:#c972a7;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	
+
+	.news h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.try{
+		background-color: #ff7500;
+		width:100% !important;
+		height: 50px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.7em !important;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		margin-right: 8%;
+		text-align: center !important;
+		margin-top: 2%;
+	}
+
+	.try a, .download-it a {
+		color:white;
+	}
+
+	.download-it{
+		background-color: #acc600;
+		width:100% !important;
+		height: 50px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.7em !important;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		text-align: center !important;
+		margin-top: 2%;
+
+	}
+
+	.bottoni{
+		height: auto;
+		width:100%;
+		padding-top: 2%;
+		height:120px;
+
+	}
+
+.quick-few-steps{
+	max-width: 90%;
+}
+
+.quick-few-steps p{
+	text-align: justify;
+	color:#717171;
+
+}
+
+	.what-does-bedita{
+	max-width:70%;
+	height:auto;
+	padding: 0 0% 2% 5%;
+}
+
+.what-does-bedita div:nth-child(9){
+		position:relative;
+		width: 25%;
+		position: absolute;
+		bottom:32%;
+		right:19%;
+		display: none;
+	}
+
+	.licensing{
+		background:#2bb2d9;
+		padding: 5% 0% 5% 5%;
+		width:100%;
+		height: auto;
+		padding: 0 0 16% 0%;
+	}
+
+	
+	.licensing p, .licensing h1{
+		width: 70%;
+		margin-left: 5%;
+		text-align: justify;
+	}
+
+	.licensing h1{
+		width: 70%;
+		padding-top: 5%;
+	}
+
+	.logo img{
+			float:right;
+			padding-right:25%;
+			padding-top:5%;
+			width:65%;
+	}
+
+	.what-does-bedita h1, .closer-look h1, .licensing h1 {
+		font-size: 2.7em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		line-height: 1em;
+		padding-bottom: 5%;
+	}	
+
+
+.what-does-bedita h2, .what-does-bedita p, .what-does-bedita ul li, .what-does-bedita ol li, .closer-look h2, .closer-look p, .closer-look ul li, .closer-look ol li, .licensing h2, .licensing p, .licensing ul li, .licensing ol li{	
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-style: none;
+		color:#535353;
+		line-height: 1.5em;
+		text-align: justify;
+
+
+	}
+
+	.footer {
+		clear:both;
+		background-color:#343434;
+		height:750px;
+	}
+
+	.footel {
+		max-height:33%;
+		float:left;
+		width:100%;
+		height:auto;
+	}
+
+	 
+	.footel LI {
+		list-style-type:none;
+		font-family:"Arial",
+		sans-serif;
+		font-size:12px;
+		line-height:1.8em;
+		padding:5px 10px 0px 10px;
+		color:white;
+		font-size: 1em;
+		display:inline-block;
+		width:70%;
+	}
+
+	.footel li p > a {
+		background-color:#343434;
+		background-image:url('');
+	}
+
+	.footer > .footel > li > a > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+	.footer > .footel > li > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+
+	.footel LI A {
+		text-decoration:none;
+		color:white;
+	}
+
+	.footel LI A:hover {
+		color:white;
+	}
+
+	
+
+	.footer > .footel:nth-child(2) {
+		padding-top:5%;
+	}
+
+	.footer > .footel:nth-child(4) li{
+		padding-top:5%;
+	}
+
+	.sviluppato{
+		background: url('../img/sviluppato.png') no-repeat;
+		height:110px;
+		width:100%;
+		position:relative;
+		bottom:9%;
+	}
+
+	.closer-look p{
+	width: 70% !important;
+	padding: 0 0 5% 5% !important;
+	text-align: justify !important;
+
+}
+
+.closer-look{
+	background: #acc600;
+	width:100%;
+	height:auto;
+
+}
+
+.closer-look h1, .closer-look p, .closer-look a{
+	color:white;
+}
+
+.closer-look h1{
+	padding:10% 35% 0 15%;
+	text-align: center;
+}
+
+}
+ 
+
+
+
+@media screen and (max-width: 320px) {
+
+	.be-download-2 p:nth-child(4){
+		height:30px;
+	}
+
+
+	.quick-few-steps{
+		max-width: 70%;
+		padding:0 0 5% 5%;
+		margin: 0 auto;
+		width;
+	}
+
+
+	.quick-few-steps p{
+		text-align: center;
+		color:#717171;
+		padding: 0 0% 2% 5%;
+		width: 90%;
+	}
+
+	.quick-few-steps h1{
+		font-size: 2.7em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#717171;
+		padding-left: 29%;
+		padding-top: 2.5%;
+		width: 70%;
+	}
+
+	.thickbox img{
+	position: relative;
+	left: 32%;
+	right:50%;
+	}
+
+	.flex-next, .flex-prev{
+		display: none;
+	}
+
+	.main .subdocs .download-bedita a h1, .main .subdocs .extend a h1, .main .subdocs .plugin-modules a h1, .main .subdocs .frontend-themes a h1 {
+		color:#acc700 !important;
+	}
+
+		/*...........................................    
+
+				TRY BEDITA MIN 1745PX
+
+...........................................*/
+
+ .textSection h1 {
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		padding-top: 25%;
+		color:#c972a7;
+	}	
+
+	 .schema-and-database-files{
+ 		width:50%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+		display: inline;
+ }
+	
+
+
+	.textSection h2, .textSection p, .textSection ul li, .textSection ol li{
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		text-align: justify;
+		
+	}
+
+	 .textSection h4 {
+		padding-top: 2%;
+		font-size: 1.2em;
+	}
+
+	.textSection ul, .textSection ol {
+		list-style: none;
+	}
+
+	.overview ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.textSection a{
+		color:#c972a7;
+	}
+
+	.overview p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	 .textSection{
+		max-width:90%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+
+	.main .subdocs .documentation a h1, .main .subdocs .frontend a h1, .main .subdocs .backend a h1, .main .subdocs .bedita-3-2-populus a h1, .main .subdocs .changelog a h1{
+		color:#c972a7 !important;
+	}
+
+
+	.top{
+		height:150px;
+		width:100%;
+		margin: 0 auto;
+	}
+
+	.logo{
+		height:150px;
+		width:100%;
+		left:50%;
+		right:50%;
+	}
+	.logo a{
+		height:150px;
+		width:100%;
+	}
+
+/*...........................................    
+
+				MENU RESPONSIVE MIN 320PX
+
+...........................................*/
+
+.headmenu{
+	position:fixed;
+	background: url('../img/BElogo24_mobile.png') no-repeat #e6e6e6;
+	background-position: 17px 11px;
+	height: 45px;
+	width: 320px;
+	z-index: 2002;
+	left:0;
+	top: 0;
+
+}
+.menuP{
+	display:none;
+}
+.github{
+	display:none;
+}
+.banner{
+	display:none;
+}
+.toggle-menu{	
+	background: url('../img/button-small.png') no-repeat;
+	width:45px;
+	height:41px;
+	float: right;
+	margin: 6px 17px 0 0;
+}
+
+/*...........................................    
+
+				DOWNLOAD MIN 1745PX
+
+...........................................*/
+
+
+	.top{
+		height:110px;
+		width:100%;
+		margin: 0 auto;
+		display:none;
+
+	}
+
+	.logo{
+		height:120px;
+		width:100%;
+	}
+	.logo a{
+		height:250px;
+		width:100%;
+	}
+
+	.logo img{
+			float:right;
+			padding-right:20%;
+			width: 62%;
+	}
+
+	
+	.be-download-2 h1, .translation-packages h1, .installation-and-management h1, .glossary h1, .ticket h1, .installation h1, .abrasive h1, .altruism h1, .astroturfd h1, .bookish h1, .mimbo h1, .zenlike h1  {
+		font-size: 1.8em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		padding-top: 30%;
+		color: #acc700;
+		text-align: left;
+	}	
+
+
+	.be-download-2 h2, .be-download-2 p, .be-download-2 ul li, .be-download-2 ol li,
+	.translation-packages h2, .translation-packages p, .translation-packages ul li, .translation-packages ol li, 
+	.glossary h2, .glossary p, .glossary ul li, .glossary ol li,
+	.installation-and-management h2, .installation-and-management p, .installation-and-management ul li, .installation-and-management ol li,
+	.ticket h2, .ticket p, .ticket ul li, .ticket ol li,
+	.installation h2, .installation p, .installation ul li, .installation ol li,
+	.abrasive h2, .abrasive p, .abrasive ul li, .abrasive ol li,
+	.astroturfd h2, .astroturfd p, .astroturfd ul li, .astroturfd ol li,
+	.altruism h2, .altruism p, .altruism ul li, .altruism ol li,
+	.bookish h2, .bookish p, .bookish ul li, .bookish ol li,
+	.mimbo h2, .mimbo p, .mimbo ul li, .mimbo ol li,
+	.zenlike h2, .zenlike p, .zenlike ul li, .zenlike ol li{
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+	}
+
+	.be-download-2 a, .translation-packages a, .installation-and-management a, .glossary a, .ticket a, .installation a, .abrasive a, .altruism a, .astroturfd a, .bookish a, .mimbo a, .zenlike a {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#acc700;
+		line-height: 1.5em;
+	}
+
+	.be-download-2, .translation-packages, .installation-and-management, .glossary, .ticket, .installation, .abrasive, .altruism, .astroturfd, .bookish, .mimbo, .zenlike {
+		max-width:90%;
+		height:auto;
+		padding: 0 0% 10% 5%;
+		float:left;
+		text-align: justify;
+	}
+
+	.be-download-2 h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.be-download-2 p:nth-child(3) a{
+		color:black;
+		font-weight: bold !important;
+	}
+
+	.puls a{
+		background: url('../img/download-ico.png') no-repeat;
+		content:'';
+		display: block;
+		width:60px;
+		height:60px;
+		text-indent:-9999px;
+		float:left;
+		margin: 2.2% 3% 0 3%;
+
+	}
+
+	.be-download-2 p:nth-child(6){
+		display: inline-block;
+		margin-top: 1.2%;
+	}
+
+
+/*...........................................    
+
+				TRY BEDITA MAX 320PX
+
+...........................................*/
+
+ 	.try-bedita h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		padding-bottom: 1%;
+		color:#ff7500;
+		font-size: 1.8em;
+	}	
+
+
+	.try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li, .try-bedita h2, .try-bedita p, .try-bedita ul li, .try-bedita ol li{
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+		line-height: 1.5em;
+		text-align: justify;
+		
+	}
+
+	.try-bedita ul {
+		list-style: none;
+	}
+
+	.try-bedita ul:nth-child(5) li{
+		padding: 2%;
+	}
+
+	.try-bedita a{
+		background: url('')!important;
+		color:#ff7500;
+	}
+
+	.try-bedita p:nth-child(13){
+		padding-top:2%;
+	}
+
+	
+	.try-bedita{
+		max-width:90%;
+		height:auto;
+		padding: 0 0% 2% 5%;
+		float:left;
+	}
+
+	
+
+	.try-bedita h3{
+		font-style: none;
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.abstract{
+		padding-bottom: 4%;
+	}
+
+/*...........................................    
+
+				NEWS MAX 480PX
+
+...........................................*/
+
+	.news h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		line-height: 1em;
+		padding-bottom: 5%;
+		font-size: 1.9em;
+	}	
+
+
+	.news h2, .news p, .continue, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li, .news h2, .news p, .news ul li, .news ol li{
+		font-size: 1.2em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-style: none;
+		color:#535353;
+		line-height: 1.5em;
+		text-align: justify;
+	}
+
+
+	
+	.content-main .subdocs, .content-main .subdocs-download{
+		float:left;
+		width:200px;
+		display: inline-block;
+		padding-left:5%;
+		margin-bottom: 25%;
+	}
+
+	.content-main .subdocs ul{
+		list-style: none;
+	}
+
+	.content-main .subdocs ul li a{
+		font-size: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		color:#535353;
+	}
+
+
+	.js-seemore-news{
+		color:black;
+		font-size: 1.3em;
+	}
+
+	.news{
+		max-width:90%;
+		height:auto;
+		padding: 0 0% 0% 5%;
+		float:left;
+		text-align: justify;
+	}
+
+	.news h1 {
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		padding-bottom: 3%;
+		padding-top: 8%;
+
+	}
+
+	.news div:first-child a{
+		font-style: none;
+		color:#00a4d1;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(3) a{
+		font-style: none;
+		color:#c972a7;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+
+	.news div:nth-child(2) a{
+		font-style: none;
+		color:#acc600;
+		line-height: 1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	
+
+	.news h3{
+		font-style: none;
+		font-size: 1.5em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+	}
+
+	.try{
+		background-color: #ff7500;
+		width:100% !important;
+		height: 50px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.7em !important;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		margin-right: 8%;
+		text-align: center !important;
+		margin-top: 2%;
+	}
+
+	.try a, .download-it a {
+		color:white;
+	}
+
+	.download-it{
+		background-color: #acc600;
+		width:100% !important;
+		height: 50px;
+		text-decoration:none;
+		text-align: center;
+		font-size: 1.7em !important;
+		font-variant: small-caps;
+		font-family: 'Titillium Web';
+		color: white!important;
+		display: inline-block;
+		float:left;
+		text-align: center !important;
+		margin: 5% 0 10% 0;
+
+	}
+
+	.bottoni{
+		height: auto;
+		width:100%;
+		padding-top: 5%;
+		height:120px;
+
+	}
+
+.quick-few-steps{
+	max-width: 70%;
+	padding:0 0 5% 5%;
+}
+
+
+.quick-few-steps p{
+	text-align: justify;
+	color:#717171;
+
+}
+
+	.what-does-bedita{
+	max-width:90%;
+	height:auto;
+	padding: 25% 0% 2% 5%;
+}
+
+	.licensing{
+		background:#2bb2d9;
+		padding: 5% 0% 5% 5%;
+		width:100%;
+		height: auto;
+		padding: 0 0 16% 0%;
+	}
+
+	
+	.licensing p, .licensing h1{
+		margin-left: 5%;
+		text-align: justify;
+	}
+
+	
+
+	.what-does-bedita h1, .closer-look h1, .licensing h1 {
+		font-size: 2.3em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-variant:small-caps;
+		line-height: 1em;
+		padding-bottom: 5%;
+	}	
+
+
+	.what-does-bedita h2, .what-does-bedita p, .what-does-bedita ul li, .what-does-bedita ol li, .closer-look h2, .closer-look p, .closer-look ul li, .closer-look ol li, .licensing h2, .licensing p, .licensing ul li, .licensing ol li{	
+		font-size: 1.1em;
+		font-family: 'Titillium Web';
+		font-weight: lighter;
+		font-variant: none;
+		font-style: none;
+		color:#535353;
+		line-height: 1.5em;
+		text-align: justify;
+
+
+	}
+
+	.footer {
+		clear:both;
+		background-color:#343434;
+		height:750px;
+	}
+
+	.footel {
+		max-height:33%;
+		float:left;
+		width:100%;
+		height:auto;
+	}
+
+	 
+	.footel LI {
+		list-style-type:none;
+		font-family:"Arial",
+		sans-serif;
+		font-size:12px;
+		line-height:1.8em;
+		padding:5px 10px 0px 10px;
+		color:white;
+		font-size: 1em;
+		display:inline-block;
+		width:70%;
+	}
+
+	.footel li p > a {
+		background-color:#343434;
+		background-image:url('');
+	}
+
+	.footer > .footel > li > a > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+	.footer > .footel > li > h3 {
+		font:normal 14px "Georgia",serif;
+		line-height:1.5em;
+		font-size: 1.7em;
+	}
+
+
+	.footel LI A {
+		text-decoration:none;
+		color:white;
+	}
+
+	.footel LI A:hover {
+		color:white;
+	}
+
+	
+
+	.footer > .footel:nth-child(2) {
+		padding-top:5%;
+	}
+
+	.footer > .footel:nth-child(4) li{
+		padding-top:5%;
+	}
+
+	.sviluppato{
+		background: url('../img/sviluppato.png') no-repeat;
+		height:110px;
+		width:100%;
+		position:relative;
+		bottom:9%;
+	}
+
+	.closer-look p{
+	padding: 0px !important;
+	text-align: justify !important;
+	width: 320px;
+	margin-right: 0px !important;
+
+}
+
+.closer-look{
+	background: #acc600;
+	width:100%;
+	height:auto;
+	padding: 0% 0% 2% 5% !important;
+
+}
+
+.closer-look h1, .closer-look p, .closer-look a{
+	color:white;
+}
+
+.closer-look h1{
+	width:320px;
+	padding: 0 !important;
+	float: left;
+	margin-bottom: 5%;
+	display: inline;
+	text-align: left;
+}
+
+}
+
+/*...........................................    
+
+				TYPOGRAPHY
+
+...........................................*/
+
+.footer p{
+	color:white;
+}
+
+BODY {font-family: 'Titillium Web';}
+
+span{text-decoration:none;}
+
+strong {font: "Georgia", serif;}
+
+textarea, Input[type=text], Input[type=password] {
+	border:1px solid silver;
+	padding:0.35em;
+	color:gray;
+}
+
+p {
+	text-decoration: none;
+}
+span {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+hr{
+	display: none;
+}
+
+.index .subdocs{
+	display: none;
+}
+
+/*...........................................    
+
+				MENURIGHT
+
+...........................................*/
+
+.headmenu .menuP > li{padding:2% 0% 4% 3%; font-size: 1.5em; font-family: 'Titillium Web'; margin-left:0px;}
+.headmenu .menuP > li > a {padding-left: 3%; color:white;}
+
+[title~=what-is-bedita]{background: url('../img/back-li-1.png') no-repeat; max-width: 100%; max-height: 100%; background-position:top left;}
+
+[title~=news]{background: url('../img/back-li-4.png') no-repeat; width: auto; height: auto; max-width: 100%; max-height: 100%; background-position:top left;}
+
+[title~=demo]{background: url('../img/back-li-2.png') no-repeat; max-width: 100%; max-height: 100%; background-position:top left;}
+
+[title~=download-bedita]{background: url('../img/back-li-3.png') no-repeat; max-width: 100%; max-height: 100%; background-position:top left;}
+
+[title~=documentation]{background: url('../img/back-li-5.png') no-repeat; max-width: 100%; max-height: 100%; background-position:top left;}
+
+li[title~=news] .subdocs{
+	display: none;
+}
+
+li[title~=download-bedita] .subdocs{
+	display: none;
+}
+
+li[title~=demo] .subdocs{
+	display: none;
+}
+
+
+li[title~=documentation] .subdocs{
+	display: none;
+}
+
+[title~=what-is-bedita] > a {
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+[title~=news] > a {
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+[title~=demo] > a {
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+[title~=documentation] > a {
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+[title~=download-bedita] > a {
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+[title~=demo] .subdocs {
+	padding:0 !important;
+}
+
+.faq p a {
+	background: url('') ;
+}
+
+.menuP .subdocs li::selection {font-weight: bold;}
+.menuP .subdocs li::-moz-selection {font-weight: bold;}
+
+.menuP .subdocs li:nth-child(5) {
+	display:none;
+}
+
+.menuP .subdocs li:nth-child(6) {
+	display:none;
+}
+
+.menuP .subdocs li:nth-child(7) {
+	display:none;
+}
+
+.menuP .subdocs li:nth-child(9) {
+	display:none;
+}
+
+.menuP  .subdocs li:nth-child(8) {
+	display:none;
+}
+
+.menuP .subdocs a h1 {
+	display: none;
+}
+
+
+.headmenu > .menuP > [title~=what-is-bedita] > .subdocs > ul > li > a {
+	font-size: 0.8em;
+	font-family: 'Titillium Web';
+	font-weight: lighter;
+	margin-left:0px;
+	font-variant: none;
+	color:#535353;
+	text-decoration: none;
+}
+
+.headmenu > .menuP > [title~=what-is-bedita] > .subdocs > ul > li {
+	padding:0 0 0 3%;
+	font-size: 1.1em;
+}
+
+.headmenu > .menuP > [title~=what-is-bedita] > .subdocs > ul {
+	list-style: none;
+}
+
+.headmenu > .menuP > [title~=what-is-bedita] > .subdocs {
+	padding-top: 5%;
+}
+
+.headmenu > .menuP > [title~=news] > .subdocs > ul > li > a {
+	font-size: 0.8em;
+	font-family: 'Titillium Web';
+	font-weight: lighter;
+	margin-left:0px;
+	font-variant: none;
+	color:#535353;
+	text-decoration: none;
+}
+
+.headmenu > .menuP > [title~=news] > .subdocs > ul > li {
+	padding:1% 0 0 3%;
+}
+
+.headmenu > .menuP > [title~=news] > .subdocs > ul {
+	list-style: none;
+}
+
+.headmenu > .menuP > [title~=news] > .subdocs {
+	padding-top: 5%;
+}
+
+.headmenu > .menuP > [title~=demo] > .subdocs > ul > li > a {
+	font-size: 0.8em;
+	font-family: 'Titillium Web';
+	font-weight: lighter;
+	margin-left:0px;
+	font-variant: none;
+	color:#535353;
+	text-decoration: none;
+}
+
+.headmenu > .menuP > [title~=demo] > .subdocs > ul > li {
+	padding:1% 0 0 3%;
+}
+
+.headmenu > .menuP > [title~=demo] > .subdocs > ul {
+	list-style: none;
+}
+
+.headmenu > .menuP > [title~=demo] > .subdocs {
+	padding-top: 5%;
+}
+
+.headmenu > .menuP > [title~=documentation] > .subdocs > ul > li > a {
+	font-size: 0.8em;
+	font-family: 'Titillium Web';
+	font-weight: lighter;
+	margin-left:0px;
+	font-variant: none;
+	color:#535353;
+	text-decoration: none;
+}
+
+.headmenu > .menuP > [title~=documentation] > .subdocs > ul > li {
+	padding:1% 0 0 3%;
+}
+.headmenu > .menuP > [title~=documentation] > .subdocs > ul {
+	list-style: none;
+}
+
+.headmenu > .menuP > [title~=documentation] > .subdocs {
+	padding-top: 5%;
+}
+
+.headmenu > .menuP > [title~=download-bedita] > .subdocs > ul > li > a {
+	font-size: 0.8em;
+	font-family: 'Titillium Web';
+	font-weight:lighter;
+	margin-left:0px;
+	font-variant:none;
+	color:#535353;
+}
+
+
+.headmenu > .menuP > [title~=download-bedita] > .subdocs > ul > li {
+	padding:1% 0% 1% 3%;
+}
+
+
+.headmenu > .menuP > [title~=download-bedita] > .subdocs > ul {
+	list-style: none;
+}
+
+
+.headmenu > .menuP > [title~=download-bedita] > .subdocs {
+	padding-top: 5%;
+}
+				
+.banner{
+	font-size: 1.4em;
+	width:100%;
+	height:50px;
+}
+
+.banner p{
+	text-decoration:none;
+	position: absolute;
+	top:975px;
+	left:45px;
+	text-align: center;
+	color:white;
+
+}
+
+.github{
+	top:1050px;
+	position:absolute;
+	width:77%;
+	padding-left:10%;
+
+}
+
+.github p{
+	color:white !important;
+	text-decoration:none;
+	text-align: center;
+	font-size: 1.8em;
+	font-variant: small-caps;
+	font-family: 'Titillium Web';
+	background-color: #00a4d1;
+
+}
+
+.github a{
+	color:white;
+}
+.banner:hover{
+	color:white;
+}
+.events{
+	display:none;
+}
+.documents{
+	display:none;
+}
+.galleries{
+	display:none;
+}
+.tags{
+	display:none;
+}
+.strillo{
+	display:none;
+}
+.illustrazione{
+	display:none;
+}
+
+.modules-open{
+	display: none;
+}
+
+
+																					/*...........................................    
+
+																									WHAT IS BE..
+
+																					...........................................*/
+
+
+.what-does-bedita > h1{
+	color:#e2007a;
+}	
+.what-does-bedita > p, .textC > h2 {
+	color:#535353;
+}
+.what-does-bedita > p:nth-child(2){
+	display: none;
+}
+.what-does-bedita > p > a {
+	color:#535353;
+}
+.what-does-bedita > p > a:hover {
+	color:#e2007a;
+}
+
+
+.what-does-bedita{
+	background-color: white;
+}
+
+
+
+
+
+
+																					/*...........................................    
+
+																										LICENSING
+
+																					...........................................*/
+
+
+.licensing h1, .licensing p, .licensing a{
+	color:white;
+}
+
+
+
+.footel:nth-child(3) li a[title~=Licensing] h3{
+		color:#2bb2d9;
+}
+
+.footel:nth-child(3) li a[title~=Download] h3{
+		color:#9fb706;
+}
+
+
+.footel:nth-child(4) li h3{
+		color:#ffed00;
+}
+
+.footel:nth-child(5) li h3{
+		color:#ff7500;
+}
+
+.footel:nth-child(5) li a[title~=References] h3{
+		color:#c972a7 !important;
+}
+
+ul li{
+	list-style: none;
+}
+
+.abstract{
+	display: none;
+}

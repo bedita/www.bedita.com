@@ -45,13 +45,14 @@
 	<div class="strillo">
 		{$publication.public_name|default:$publication.title}
 	</div>
-	
+	{*
 	<div class="illustrazione" style="margin-left:60px;">
 		<img src="{$html->webroot}img/tree_corylus.png" style="margin-top:-36px; opacity: 0.7" />
 	</div>
+	*}
 	
 	{if !empty($banner)}
-		<a class="banner" style="margin-left:-285px;" href="{$banner.relations.link[0].url|default:''}">
+		<a class="banner" href="{$banner.relations.link[0].url|default:''}">
 			{$banner.body|default:''}
 		</a>
 	{/if}

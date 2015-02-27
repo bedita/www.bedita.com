@@ -87,7 +87,7 @@ textarea, Input[type=text], Input[type=password] {
 
 .banner {
 	display:block;
-	top:150px; left:645px; 
+	top:73px; left:645px; 
 	position:absolute; 
 	z-index:100;
 	color:#FFF !important;
@@ -110,7 +110,7 @@ textarea, Input[type=text], Input[type=password] {
 }
 
 .topG {
-	background: url("../img/grass_g.png") bottom right no-repeat;
+	/*background: url("../img/grass_g.png") bottom right no-repeat;*/
 	width:940px;
 	overflow:hidden;
 	height:20px;

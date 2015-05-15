@@ -30,6 +30,10 @@ body {
     padding: 10px 0px 0px 1.2em;
 }
 
+.sub-menu:empty {
+    display:none
+}
+
 .sub-menu li {
     margin:0px;
 }
@@ -57,9 +61,8 @@ body {
 
 .intro {
     width:200px;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    font-weight:300;
     color: #E2007A;
     padding:20px 15px 15px 15px;
     font-size: 1.15em;
@@ -81,6 +84,42 @@ body {
 
 #home-container .img {
     margin-top:15px;
+}
+
+.jumbotron {
+    background-color:inherit;
+    padding:18px 0px 18px 0px;
+}
+
+.jumbotron h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: black;
+}
+
+.col-item.link a {
+    color:#333;
+}
+
+.col-item {
+    padding:15px;
+}
+
+#news-block .col-item h2 {
+    font-size:1.5em;
+    color: #189ACA;
+    font-weight: normal;
+    margin-top:0px;
+}
+
+#news-block h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding-left:15px;
+}
+
+.btn-primary {
+    background-color:#189ACA;
 }
 
 /*!
@@ -194,7 +233,7 @@ body {
 
 
 @media(min-width:992px) {
-    .col-item {
+    #content-block .col-item {
         width:33%;
     }
 

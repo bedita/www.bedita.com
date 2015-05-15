@@ -29,9 +29,13 @@ class PagesController extends FrontendController {
 
     public function index() {
         
-        /* segnalazioni */
+        /* oggetti in home */
         $homeItems = $this->loadSectionObjectsByNick("home-be");
         $this->set('homeItems', @$homeItems['childContents']);
+
+        /* news */
+        $homeNews = $this->loadSectionObjectsByNick("news", array('dim' => 4));
+        $this->set('homeNews', @$homeNews['childContents']);
 
     }
 }

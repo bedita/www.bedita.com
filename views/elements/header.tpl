@@ -18,7 +18,7 @@
         <nav>
           
             {foreach $topMenu as $item}
-                <a class="navbar-brand menu-item" href="{$html->url($item.canonicalPath)}">
+                <a class="navbar-brand menu-item" href="{$html->url($item.url)}">
                     {$item.title|truncate:20|default:"<i>[no title]</i>"}
                 </a>
             {/foreach}

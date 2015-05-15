@@ -1,86 +1,67 @@
-{$html->docType('xhtml-trans')}
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" dir="ltr">
+<!DOCTYPE html>
+<html lang="{$currLang2}">
 <head>
-	<title>{$publication.public_name|default:$publication.title}{if !empty($section.currentContent.title)} - {$section.currentContent.title|truncate:"60"}{elseif !empty($section.title)} - {$section.title|truncate:"60"}{/if}  </title>
+	{$html->charset()}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta http-equiv="Content-Style-Type" content="text/css" />
+	{$beFront->metaAll()}
+	{$beFront->metaDc()}
+	{$beFront->metaOg()}
+	
+    {if $conf->version >= '3.5.2'}
+        {$beFront->metaWebApp($publication.title, ['default' => 'apple-touch-icon.png'], '#000')}
+    {/if}
 
-	<link rel="icon" href="{$session->webroot}favicon.ico" type="image/gif" />
-	<link rel="shortcut icon" href="{$session->webroot}favicon.gif" type="image/gif" />
-	
-	<meta name="description" content="{$publication.description}" />
-	<meta name="author" content="{$publication.creator}" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta http-equiv="Content-Style-Type" content="text/css" />
-	
-	<meta name="BEdita.base" content="{$html->url('/')}" />
-	<meta name="BEdita.webroot" content="{$html->webroot}" />
-	 
-    <!-- RTF dublin core dataset -->
+    <link rel="icon" href="{$html->webroot}favicon.ico">
+
+    <title>{$beFront->title()}</title>
+
+    <!-- Bootstrap core CSS -->
+    {$html->css('bootstrap.min')}
+
+    <!-- Custom styles for this template -->
+    {$html->css('jumbotron')}
+
+    <!-- custom override CSS -->
+    {$html->css('base')}
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    {$html->script('ie-emulation-modes-warning')}
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    {$html->script('ie10-viewport-bug-workaround')}
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- webfonts -->
+    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic,300italic,300' rel='stylesheet' type='text/css'>
     
-    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
-    <meta name="DC.title" 		content="{$publication.public_name|default:$publication.title}" />
-    <meta name="DC.description" content="{$publication.description}" />
-	<meta name="DC.language" 	content="{$publication.lang}" />
-    <meta name="DC.creator" 	content="{$publication.creator}" />
-    <meta name="DC.publisher" 	content="{$publication.publisher}" />
-    <meta name="DC.date" 		content="{$publication.created}" />
-	<meta name="DC.modified" 	content="{$publication.modified}" />
-	<meta name="DC.format" 		content="text/html" />
-	<meta name="DC.identifier"  content="{$publication.id}" />
-    <meta name="DC.rights" 		content="{$publication.rights}" />
- 	<meta name="DC.license" 	content="{$publication.license}" />
+    {$beFront->feeds()}
 
-    <!-- end -->
-
-	{if !empty($feedNames)}
-		{foreach from=$feedNames item=feed}
-		<link rel="alternate" type="application/rss+xml" title="{$feed.title}" href="{$html->url('/rss')}/{$feed.nickname}" />
-		{/foreach}
-	{/if}
-	
-	{$html->css('beditanew')}
-	{$html->css('thickbox.BEfrontend')}
-	
-	{*$html->script("jquery")*}
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	{$html->script("jquery.pngFix.pack")}
-	{$html->script("ui/ui.core.min")}
-	{$html->script("ui/ui.draggable.min")}
-	{$html->script("bedita")}
-	{$html->script("jquery.thickbox.BEfrontend")}
-
-	{$html->script("jquery.flexslider")}
-	{$html->css('flexslider')}
-
-
-
-
-
-
-<!--[if IE 6]>
-	{literal}
-	<style type="text/css">
-		BODY {
-		background-image: none !important;
-		}
-		
-	</style>
-	{/literal}
-<![endif]-->
-
-
-	{$scripts_for_layout}
-
-</head>
-
+    {$scripts_for_layout}
+  </head>
 
 <body>
-{$beFront->stagingToolbar()}
+	{$view->element('header')}
 
-{$content_for_layout}
+	{$content_for_layout}
 
+	{$view->element('footer')}
 
-{if empty($conf->staging) && !empty($publication.stats_code)}{$publication.stats_code}{/if}
+	{$beFront->stats()}
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    {$html->script('bootstrap.min')}
+    {$html->script('base')}
 </body>
 </html>

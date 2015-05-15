@@ -1,0 +1,221 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.navbar {
+    margin-bottom:0px;
+}
+
+.navbar-header:after {
+    clear:none !important;
+}
+
+.sidebar-brand {
+    border-top: 1px solid silver;
+    clear :both;
+    padding-top:10px;
+}
+
+.sidebar-nav a:hover, .sidebar-nav a.on {
+    color:black;
+}
+
+.sub-menu {
+    list-style-type: none;
+    padding: 10px 0px 0px 1.2em;
+}
+
+.sub-menu li {
+    margin:0px;
+}
+
+.logo-big {
+    display:none;
+    width:85px;
+    margin-top:-2px;
+}
+
+.logo-small {
+    display:block;
+    width:30px;
+}
+
+.container {
+    width:100%;
+} 
+
+#content-block > .col-item {
+    float:none;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.intro {
+    width:200px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #E2007A;
+    padding:20px 15px 15px 15px;
+    font-size: 1.15em;
+}
+
+.menu-item {
+    padding-top:23px;
+}
+
+#home-container .jumbotron {
+    background-color: white;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#content-block {
+    width:100%;
+}
+
+#home-container .img {
+    margin-top:15px;
+}
+
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 200px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 200px;
+    width: 0;
+    height: 100%;
+    margin-left: -200px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 200px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -200px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    width: 200px;
+    margin: 15px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.sidebar-nav li {
+    text-indent: 18px;
+    margin-bottom:10px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 200px;
+    }
+
+    #sidebar-wrapper {
+        width: 200px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 200px;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+
+    .logo-big {
+        display:block;
+    }
+
+    .logo-small {
+        display:none;
+    }
+
+
+}
+
+
+@media(min-width:992px) {
+    .col-item {
+        width:33%;
+    }
+
+    #home-container {
+        /* flexbox specific properties */
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        flex-wrap:wrap;
+        -webkit-flex-wrap:wrap;
+    }
+
+}
+
+
+@media(min-width:1440px) {
+
+    #wrapper {
+        width:1440px;
+        margin:0 auto;
+    } 
+
+}

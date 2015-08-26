@@ -12,9 +12,11 @@
                   <!-- Main jumbotron for a primary marketing message or call to action -->
                   <div class="jumbotron">                  
                       <h1>{$content.title|default:''}</h1>
-                       <p>{$content.body|strip_tags|truncate:200|default:"<i>[no body]</i>"}</p>
-                       <p><a class="btn btn-primary btn-lg" href="{$html->url($content.canonicalPath)}" 
-                          role="button">View details &raquo;</a></p>
+                      {if !empty($content.description) or !empty($content.body)}
+                          <h2>{$content.description|default:$content.body|strip_tags|truncate:200|default:''}<h2>
+                      {/if}
+                       <p><a class="btn btn-default" href="{$html->url($content.canonicalPath)}" 
+                          role="button">Read more &raquo;</a></p>
                       </div>                   
                   </div>                  
               {else}
@@ -30,17 +32,21 @@
                     
                     <h2>
                     {if $content.object_type == 'Link'}
-                      <a href="{$content.url}" target="_blank"><h2>{$content.title|default:''}</h2></a>
+                      <span class="glyphicon glyphicon-download" aria-hidden="true" style="display:inline;"></span>
+                      <a href="{$content.url}" target="_blank">
+                        <span style="display:inline; vertical-align:top;">{$content.title|default:''}</span>
+                      </a>
                     {else}
                       {$content.title|default:''}
                     {/if}
                     </h2>
                      
                      {if $content.object_type != 'Link'}
-                     <p>{$content.body|strip_tags|truncate:200|default:"<i>[no body]</i>"}</p>
+                     <h3>{$content.description|strip_tags|default:""}</h3>
+                     <p>{$content.body|strip_tags|truncate:300|default:""}</p>
                      
                       <p><a class="btn btn-default" href="{$html->url($content.canonicalPath)}" 
-                        role="button">View details &raquo;</a></p>
+                        role="button">Read more &raquo;</a></p>
                     {/if}
                   </div>
               {/if}
@@ -60,8 +66,8 @@
 
                  <p>{$content.body|strip_tags|truncate:200|default:"<i>[no body]</i>"}</p>
                  
-                  <p><a class="btn btn-default" href="{$html->url($content.canonicalPath)}" 
-                    role="button">View details &raquo;</a></p>
+                  <p><a class="main-link" href="{$html->url($content.canonicalPath)}" 
+                    role="button">Read more &raquo;</a></p>
               </div>          
             {/foreach}
         </div>

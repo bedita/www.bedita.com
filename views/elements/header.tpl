@@ -13,10 +13,8 @@
           </a>
         </div>
 
-      
         {if !empty($topMenu)}
-        <nav>
-          
+        <nav class="link-menu">          
             {foreach $topMenu as $item}
                 <a class="navbar-brand menu-item" href="{$html->url($item.url)}">
                     {$item.title|truncate:20|default:"<i>[no title]</i>"}
@@ -24,19 +22,6 @@
             {/foreach}
         </nav>
         {/if}
-        
 
-        {*
-        <div class="navbar-collapse collapse">
-        {if !empty($BEAuthUser)}
-          <div class="navbar-right">
-             <span class="navbar-brand">Hi, {$BEAuthUser.realname}</span>
-             <a class="navbar-brand" href="{$html->url('/logout')}">[Logout]</a>
-          </div>
-        {else}
-          {$view->element('form_login')}
-        {/if}
-        </div><!--/.navbar-collapse -->
-        *}
       </div>
     </div>

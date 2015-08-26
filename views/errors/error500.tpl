@@ -1,37 +1,6 @@
-{$html->docType('xhtml-trans')}
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" dir="ltr">
-<head>
-	<title>BEdita | Error 500 - System Error</title>
-	{$html->css('beditaBase')}
-
-</head>
-<body>
-
-<div class="top">
-
-	<div class="logo">
-		<a title="{$publication.public_name}" href="{$html->url('/')}"><img src="{$html->webroot}img/BElogo24.png" alt="" /></a>
-	</div>
-	<div class="documents logomoduli">&nbsp;</div>
-	<div class="events logomoduli">&nbsp;</div>
-	<div class="galleries logomoduli">&nbsp;</div>
-
-	<div class="strillo" style="font-size: 12pt">
-		<h1>Internal error</h1>
-		We're sorry, there has been an unexpected error, you may want to:
-		<ul>
-			<li><a href="{$html->url('/')}">go to home page</a></li>
-			<li style="line-height:1.15em">	
-				<a href="javascript:history-back(-1)">go back to previous page</a>
-			</li>
-		</ul>
-
-	<div class="illustrazione" style="margin-left:30px;">
-		<img src="{$html->webroot}img/tree_ulmus.png" style="margin-top:13px;" />
-	</div>
-
-	</div>
-		
+<div class="jumbotron">
+  <div class="container">
+    <h2>Error 500 - Internal Server Error</h2>
+    {$view->element('error_details')}
+    </div>
 </div>
-
-</body>

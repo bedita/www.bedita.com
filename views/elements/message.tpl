@@ -1,3 +1,3 @@
 <div class="message {$class}">
-{$message}
+	<p>{$message}</p>
 </div>

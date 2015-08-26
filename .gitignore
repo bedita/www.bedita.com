@@ -1,10 +1,30 @@
-/tmp/cache/cake_*
-/tmp/cache/models/*
-/tmp/cache/persistent/*
-/tmp/cache/views/*
-/tmp/logs/*
-/tmp/smarty/compile/*
+# /
+/.project
+/*.settings
+/*.cache
+/.buildpath
+.DS_Store
+/.sass-cache
+/dist
+/.tmp
 
+# config
 /config/core.php
+/config/frontend.cfg.php
 
+# webroot
 /webroot/index.php
+
+# tmp
+/tmp
+
+# /webroot/
+/webroot/test.php
+/webroot/index.php
+/webroot/files
+
+# /webroot/img/
+/webroot/img/.directory
+
+# /webroot/js/libs/richtexteditors/conf/local
+/webroot/js/libs/richtexteditors/conf/local/*

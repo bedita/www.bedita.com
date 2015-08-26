@@ -1,2 +1,4 @@
+# robotstxt.org/
+
 User-agent: *
-Sitemap: http://www.bedita.com/sitemap.xml
+Disallow:

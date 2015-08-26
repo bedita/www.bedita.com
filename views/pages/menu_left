@@ -1,0 +1,24 @@
+{if !empty($sectionsTree)}
+  <div id="sidebar-wrapper">
+      <div class="intro">
+        {$publication.description}
+      </div>
+      <ul class="sidebar-nav">
+
+      {foreach $sectionsTree as $item}
+          <li class="sidebar-brand">
+            <a href="{$html->url($item.canonicalPath)}">
+              {$item.title|truncate:20|default:"<i>[no title]</i>"}</a>
+
+              {if !empty($section.childSections.0) && ($section.nickname == $item.nickname)}
+                <ul class="sub-menu">
+                  {foreach $section.childSections as $subsection}
+                    <li><a title="{$subsection.title}" href="{$subsection.canonicalPath}">{$subsection.title|default:''}</a></li>
+                  {/foreach}
+                </ul>
+              {/if}
+        </li>
+      {/foreach}
+    </ul>
+  </div>
+  {/if}

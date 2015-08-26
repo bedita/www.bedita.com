@@ -1,17 +1,34 @@
-{$html->docType('xhtml-trans')}
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" dir="ltr">
+<!DOCTYPE html>
+<html>
 <head>
-	<title></title>
-	<link rel="icon" href="{$html->webroot}favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href="{$html->webroot}favicon.ico" type="image/x-icon" />
+	{$html->charset()}
+	<title>{$beFront->title()} | status: DRAFT</title>
 
-	<meta name="author" content="" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta http-equiv="Content-Style-Type" content="text/css" />
+	{$beFront->metaAll()}
+	{$beFront->metaDc()}
+	{$beFront->metaOg()}
+
+	{$html->css('style')}
+
+	<link rel="icon" href="{$html->webroot}favicon.png" type="image/png" />
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script>window.html5 || document.write('<script src="js/libs/html5shiv.js"><\/script>')</script>
+    <![endif]-->
+
+	{$beFront->feeds()}
+
+	{$scripts_for_layout}
 </head>
-<body>
-{*dump var=$publication*}
-Publication status: DRAFT
 
+<body>
+	<h1>Publication status: DRAFT</h1>
+	{$view->element('header')}
+
+	{$content_for_layout}
+
+	{$view->element('footer')}
+
+	{$beFront->stats()}
 </body>
 </html>

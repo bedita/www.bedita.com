@@ -15,12 +15,12 @@
         <div class="row" id="content-block">
           {$view->element('list_contents')}
         </div>
-        <hr>
-
-        <footer>
-          <p>&copy; Company {$smarty.now|date_format:"%Y"}</p>
-        </footer>
       {/if}
+      <hr>
+      <footer>
+        {$view->element('footer')}
+        <p>&copy; chialab & channelweb {$smarty.now|date_format:"%Y"}</p>
+      </footer>
 
     </div> <!-- /container -->
 

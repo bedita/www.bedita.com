@@ -13,7 +13,7 @@
         {$beFront->metaWebApp($publication.title, ['default' => 'apple-touch-icon.png'], '#000')}
     {/if}
 
-    <link rel="icon" href="{$html->webroot}favicon.ico">
+    <link rel="icon" href="{$html->webroot}favicon.png">
 
     <title>{$beFront->title()}</title>
 

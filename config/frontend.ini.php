@@ -80,8 +80,7 @@ $config['frontendLang']     = 'eng';
  */
 $config['frontendLangs']    = array (
                                      'eng'    => array('en', 'english'),
-                                     'ita'    => array('it', 'italiano'),
-                                /*    
+                                /*   'ita'    => array('it', 'italiano'),
                                     'spa'    => array('es', 'espa&ntilde;ol'),
                                     'por'    => array('pt', 'portugu&ecirc;s'),
                                     'fra'    => array('fr', 'fran&ccedil;oise'),

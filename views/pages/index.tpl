@@ -75,6 +75,7 @@
         <hr style="clear:both;" />
 
         <footer>
+          {$view->element('footer')}
           <p>&copy; chialab & channelweb {$smarty.now|date_format:"%Y"}</p>
         </footer>
       

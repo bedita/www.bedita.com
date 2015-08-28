@@ -2,7 +2,7 @@
         {$content = $section.currentContent}
         <h1>{$content.title|default:'[no title]'}</h1>
         {if !empty($content.description)}
-            <h2>{$content.description|strip_tags}<h2>
+            <h2>{$content.description|strip_tags}</h2>
         {/if}
         {if !empty($section.contentRequested)}
             {if !empty($content.relations.attach)}
@@ -11,13 +11,13 @@
 
 
                     {if $item@iteration > 1}
-                        {$options = ["mode" => "crop", "width" => 250, "height" => 250, "modeparam" => "000000", "upscale" => true]}
+                        {$options = ["mode" => "fill", "width" => 250, "modeparam" => "000000", "upscale" => true]}
                         {$htmlAttr = [style => "float: left; width: 250px; margin: 10px 10px 10px 0"]}
                     {else}
-                        {$options = ["mode" => "crop", "width" => 500, "height" => 500, "modeparam" => "000000", "upscale" => true]}
+                        {$options = ["mode" => "fill", "width" => 500, "modeparam" => "000000", "upscale" => true]}
                         {$htmlAttr = [style => "float: left; width: 500px; margin: 10px 10px 10px 0", class=> "single-image"]}
                     {/if}
-                    {$optionsBig = ["mode" => "fill", "longside" => 690, "URLonly" => true]}
+                    {$optionsBig = ["mode" => "fill", "longside" => 960, "URLonly" => true]}
 
                     <p>
         	          {if $item.object_type_id == $conf->objectTypes.image.id}
@@ -42,10 +42,10 @@
                 {* modale per i multimedia *}
                 {$view->element('modal')}
             {/if}
-        <p>{$content.abstract|default:''}<p>
-        <p>{$content.body|default:''}<p>
+        <p>{$content.abstract|default:''}</p>
+        <p>{$content.body|default:''}</p>
         {else}
-        <p>{$content.body|strip_tags|truncate:150|default:"<i>[no body]</i>"}</p>
+        <p>{$content.body|strip_tags|truncate:150|default:''}</p>
         <a class="btn btn-primary" href="{$html->url($content.canonicalPath)}" 
                 role="button">Read more &raquo;</a>
         {/if}

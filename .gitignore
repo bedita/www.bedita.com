@@ -5,6 +5,7 @@
 /.buildpath
 .DS_Store
 /.sass-cache
+/webroot/.sass-cache
 /dist
 /.tmp
 

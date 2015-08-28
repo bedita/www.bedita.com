@@ -33,6 +33,11 @@ class PagesController extends FrontendController {
             }
 
         }
+
+
+        /* oggetti in footer */
+        $footer = $this->loadSectionObjectsByNick("footer");
+        $this->set('footer', @$footer['childContents']);
         
     }
 

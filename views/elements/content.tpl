@@ -22,7 +22,7 @@
                     <p>
         	          {if $item.object_type_id == $conf->objectTypes.image.id}
         	            <div class="img" {if $item@iteration is div by 4}style="margin-right:0px;"{/if}>
-        	                <a rel="gallery" title="{$item.title}" data-href="{$beEmbedMedia->object($item, $optionsBig)}">
+        	                <a class="gallery" rel="gallery" title="{$item.title}" data-href="{$beEmbedMedia->object($item, $optionsBig)}">
                                 {$beEmbedMedia->object($item, $options, $htmlAttr)}
                             </a>
         	            </div>

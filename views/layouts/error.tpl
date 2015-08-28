@@ -23,6 +23,9 @@
     <!-- Custom styles for this template -->
     {$html->css('jumbotron')}
 
+    <!-- custom override CSS -->
+    {$html->css('base')}
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     {$html->script('ie-emulation-modes-warning')}
@@ -45,8 +48,6 @@
     {$view->element('header')}
 
     {$content_for_layout}
-
-    {$view->element('footer')}
 
     {$beFront->stats()}
 

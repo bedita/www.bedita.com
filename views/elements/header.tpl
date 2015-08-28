@@ -22,7 +22,7 @@
         </button>          
             <div class="link-wrapper">
               {foreach $topMenu as $item}
-                  <a class="navbar-brand menu-item" href="{$html->url($item.url)}">
+                  <a class="navbar-brand menu-item" href="{$html->url($item.url)|default:$item.canonicalPath}">
                       {$item.title|truncate:20|default:"<i>[no title]</i>"}
                   </a>
               {/foreach}

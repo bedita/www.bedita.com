@@ -32,7 +32,7 @@
                     
                     <h2>
                     {if $content.object_type == 'Link'}
-                      <span class="glyphicon glyphicon-download" aria-hidden="true" style="display:inline;"></span>
+                      {*<span class="glyphicon glyphicon-download" aria-hidden="true" style="display:inline;"></span>*}
                       <a href="{$content.url}" target="_blank">
                         <span style="display:inline; vertical-align:top;">{$content.title|default:''}</span>
                       </a>

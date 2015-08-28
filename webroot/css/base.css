@@ -46,6 +46,14 @@ body {
 
 .container {
   width: 100%; }
+  .container .row {
+    /* flexbox specific properties */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; }
 
 .intro {
   width: 200px;

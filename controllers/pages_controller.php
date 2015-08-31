@@ -5,10 +5,10 @@ class PagesController extends FrontendController {
     public $helpers = array('BeFront');
     public $uses = array() ;
     public $components =array('BeTree');
-    
+
     /**
      * Load common data for all frontend pages
-     */ 
+     */
     protected function beditaBeforeFilter() {
         $this->set('feedNames', $this->Section->feedsAvailable(Configure::read('frontendAreaId')));
         //$this->set('sectionsTree', $this->loadSectionsTree(Configure::read('frontendAreaId')));
@@ -24,12 +24,13 @@ class PagesController extends FrontendController {
 
             $topMenu = $this->loadSectionObjectsByNick("top-menu");
             $this->set('topMenu', @$topMenu['childContents']);
-            
+
             // get submenu
-            if (!empty($this->params['pass'])) {   
-                $path = $this->params['pass'];        
+            if (!empty($this->params['pass'])) {
+                $path = $this->params['pass'];
                 $this->set('pathArray', $path);
-                $this->set("submenu", $this->loadSectionsTree($path[1],true,array(),1));
+                $submenu = !empty($path[1]) ? $this->loadSectionsTree($path[1], true, array(), 1) : array();
+                $this->set("submenu", $submenu);
             }
 
         }
@@ -38,7 +39,7 @@ class PagesController extends FrontendController {
         /* oggetti in footer */
         $footer = $this->loadSectionObjectsByNick("footer");
         $this->set('footer', @$footer['childContents']);
-        
+
     }
 
     public function index() {

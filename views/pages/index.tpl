@@ -43,7 +43,7 @@
                      
                      {if $content.object_type != 'Link'}
                      <h3>{$content.description|strip_tags|default:""}</h3>
-                     <p>{$content.body|strip_tags|truncate:110|default:""}</p>
+                     <p>{$content.body|strip_tags|truncate:120|default:""}</p>
                      
                       <p><a class="btn btn-default" href="{$html->url($content.canonicalPath)}" 
                         role="button">Read more &raquo;</a></p>

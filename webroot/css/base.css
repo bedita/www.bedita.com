@@ -316,5 +316,20 @@ body {
     margin-top: 16px;
     margin-left: 5px;
     background-color: silver; } }
+@media (min-width: 480px) and (max-width: 992px) {
+  #home-container .col-item {
+    width: 33.33333333%;
+    float: left; }
+
+  #home-container .col-item img {
+    width: 100%; }
+
+  #home-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; } }
 
 /*# sourceMappingURL=base.css.map */

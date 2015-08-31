@@ -44,6 +44,34 @@
             {/if}
         <p>{$content.abstract|default:''}</p>
         <p>{$content.body|default:''}</p>
+        <br style="clear:both;" />
+            {if !empty($content.relations.download)}
+                <hr>
+                <h3>Download</h3>
+                <ul>
+                {foreach $content.relations.download as $download}
+                    <li><a href="{$download.uri|default:$download.nickname}" target="_blank" title="{$download.title}">{$download.title}</a></li>
+                {/foreach}
+                </ul>
+            {/if}
+            {if !empty($content.relations.link)}
+                <hr>
+                <h3>Link</h3>
+                <ul>
+                {foreach $content.relations.link as $link}
+                    <li><a href="{$link.url}" target="_blank" title="{$link.title}">{$link.title}</a></li>
+                {/foreach}
+                </ul>
+            {/if}
+            {if !empty($content.relations.seealso)}
+                <hr>
+                <h3>See also</h3>
+                <ul>
+                {foreach $content.relations.seealso as $seealso}
+                    <li><a href="{$html->url($seealso.canonicalPath)}" target="_blank" title="{$seealso.title}">{$seealso.title}</a></li>
+                {/foreach}
+                </ul>
+            {/if}
         {else}
         <p>{$content.body|strip_tags|truncate:150|default:''}</p>
         <a class="btn btn-primary" href="{$html->url($content.canonicalPath)}" 

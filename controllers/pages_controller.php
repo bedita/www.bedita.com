@@ -29,7 +29,7 @@ class PagesController extends FrontendController {
             if (!empty($this->params['pass'])) {
                 $path = $this->params['pass'];
                 $this->set('pathArray', $path);
-                $submenu = !empty($path[1]) ? $this->loadSectionsTree($path[1], true, array(), 1) : array();
+                $submenu = !empty($path[0]) ? $this->loadSectionsTree($path[0], true, array(), 1) : array();
                 $this->set("submenu", $submenu);
             }
 

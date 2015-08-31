@@ -13,7 +13,7 @@
                 {strip}
                 <ul class="sub-menu">
                   {foreach $submenu as $subsection}
-                    <li><a title="{$subsection.title}" href="{if !empty($subsection.objects.1)}{$subsection.canonicalPath}{else}{$html->url($subsection.objects.0.canonicalPath)}{/if}" {if $section.nickname == $subsection.nickname}class="on"{/if}>{$subsection.title|default:''}</a></li>
+                    <li><a title="{$subsection.title}" href="{if !empty($subsection.objects.1)}{$html->url($subsection.canonicalPath)}{else}{$html->url($subsection.objects.0.canonicalPath)}{/if}" {if $section.nickname == $subsection.nickname}class="on"{/if}>{$subsection.title|default:''}</a></li>
                   {/foreach}
                 </ul>
                 {/strip}

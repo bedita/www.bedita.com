@@ -68,7 +68,7 @@
                 <h3>See also</h3>
                 <ul>
                 {foreach $content.relations.seealso as $seealso}
-                    <li><a href="{$html->url($seealso.canonicalPath)}" target="_blank" title="{$seealso.title}">{$seealso.title}</a></li>
+                    <li><a href="{$html->url($seealso.canonicalPath)}" title="{$seealso.title}">{$seealso.title}</a></li>
                 {/foreach}
                 </ul>
             {/if}

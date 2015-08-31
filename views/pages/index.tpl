@@ -26,7 +26,7 @@
                     {if $content.object_type == 'Link'}
                       {*<span class="glyphicon glyphicon-download" aria-hidden="true" style="display:inline;"></span>*}
                       <a href="{$content.url}" target="_blank">
-                        <span style="display:inline; vertical-align:top;">{$content.title|default:''}</span>
+                        <span style="display:inline; vertical-align:top;">{$content.title|default:''} »</span>
                       </a>
                     {else}
                       {$content.title|default:''}
@@ -48,7 +48,7 @@
                           <a rel="gallery" title="{$item.title}">{$beEmbedMedia->object($item, $options)}</a>
                       </div>
                     {/if}
-                    
+
                   </div>
               {/if}
           {/foreach}

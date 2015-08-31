@@ -5,7 +5,7 @@ class PagesController extends FrontendController {
     public $helpers = array('BeFront');
     public $uses = array() ;
     public $components =array('BeTree');
-	
+    
     /**
      * Load common data for all frontend pages
      */ 
@@ -52,5 +52,20 @@ class PagesController extends FrontendController {
             $this->set('homeNews', @$homeNews['childContents']);
         }
 
+    }
+
+    protected function downloadBeforeFilter() {
+        if (!empty($this->params['pass'][1])) {
+            $id = $this->BEObject->getIdFromNickname($this->params['pass'][1]);
+            if (!empty($id)) {
+                $object = $this->loadObj($id);
+                $data = array(
+                    'package_file' => $object['uri'],
+                    'object_id' => $object['id'],
+                    'ip_address' => $_SERVER['REMOTE_ADDR']
+                );
+                ClassRegistry::init('DownloadPackage')->save($data);
+            }
+        }
     }
 }

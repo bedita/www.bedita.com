@@ -19,8 +19,8 @@
       <hr>
       <footer>
         {$view->element('footer')}
-        <p>&copy; chialab & channelweb {$smarty.now|date_format:"%Y"}</p>
-      </footer>
+        {$view->element('colophon')}
+       </footer>
 
     </div> <!-- /container -->
 

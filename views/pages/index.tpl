@@ -21,15 +21,7 @@
                   </div>                  
               {else}
                   <div class="col-md-4 col-item{if $content.object_type == 'Link'} link{/if}" style="background-color:#{$content.customProperties.color|default:''}">
-                  
-                  {if !empty($content.relations.attach)}
-                  {$options = ["mode" => "crop", "width" => 200, "height" => 200, "modeparam" => "000000", "upscale" => true]}
-                  {assign var=item value=$content.relations.attach.0}          
-                  <div class="img">
-                      <a rel="gallery" title="{$item.title}">{$beEmbedMedia->object($item, $options)}</a>
-                  </div>
-                  {/if}
-                    
+                     
                     <h2>
                     {if $content.object_type == 'Link'}
                       {*<span class="glyphicon glyphicon-download" aria-hidden="true" style="display:inline;"></span>*}
@@ -41,13 +33,22 @@
                     {/if}
                     </h2>
                      
-                     {if $content.object_type != 'Link'}
+                    {if $content.object_type != 'Link'}
                      <h3>{$content.description|strip_tags|default:""}</h3>
                      <p>{$content.body|strip_tags|truncate:120|default:""}</p>
                      
                       <p><a class="btn btn-default" href="{$html->url($content.canonicalPath)}" 
                         role="button">Read more &raquo;</a></p>
                     {/if}
+
+                    {if !empty($content.relations.attach)}
+                      {$options = ["mode" => "crop", "width" => 200, "height" => 200, "modeparam" => "000000", "upscale" => true]}
+                      {assign var=item value=$content.relations.attach.0}          
+                      <div class="img">
+                          <a rel="gallery" title="{$item.title}">{$beEmbedMedia->object($item, $options)}</a>
+                      </div>
+                    {/if}
+                    
                   </div>
               {/if}
           {/foreach}

@@ -41,7 +41,7 @@
 
     <!-- webfonts -->
     <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>    
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>    
     {$beFront->feeds()}
 
     {$scripts_for_layout}

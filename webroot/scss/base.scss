@@ -126,7 +126,7 @@ body {
     }
 
     .jumbotron {
-        background-color: white;
+        background-color: none;
         padding-left:0px;
         padding-right:0px;
         h2 {
@@ -329,6 +329,10 @@ body {
     .modal-dialog {
         width: auto;
         max-width: 1000px;
+    }
+
+    .jumbotron h1 {
+        font-size: 52px;
     }
 
 }

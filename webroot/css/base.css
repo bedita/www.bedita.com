@@ -84,7 +84,7 @@ body {
   font-weight: normal;
   font-style: italic; }
 #home-container .jumbotron {
-  background-color: white;
+  background-color: none;
   padding-left: 0px;
   padding-right: 0px; }
   #home-container .jumbotron h2 {
@@ -246,7 +246,10 @@ body {
 
   .modal-dialog {
     width: auto;
-    max-width: 1000px; } }
+    max-width: 1000px; }
+
+  .jumbotron h1 {
+    font-size: 52px; } }
 @media (min-width: 992px) {
   #content-block .col-item {
     width: 33%; }

@@ -28,9 +28,12 @@ class PagesController extends FrontendController {
             // get submenu
             if (!empty($this->params['pass'])) {
                 $path = $this->params['pass'];
-                $this->set('pathArray', $path);
-                $submenu = !empty($path[0]) ? $this->loadSectionsTree($path[0], true, array(), 1) : array();
-                $this->set("submenu", $submenu);
+                // if not reserved word
+                if (!in_array($path[0], Configure::read("defaultReservedWords")) && !in_array($path[0], Configure::read("cfgReservedWords"))) {
+                    $this->set('pathArray', $path);
+                    $submenu = !empty($path[0]) ? $this->loadSectionsTree($path[0], true, array(), 1) : array();
+                    $this->set("submenu", $submenu);
+                }
             }
 
         }

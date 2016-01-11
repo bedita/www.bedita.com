@@ -22,8 +22,8 @@
         </button>          
             <div class="link-wrapper">
               {foreach $topMenu as $item}
-                  <a class="navbar-brand menu-item" href="{$html->url($item.url)|default:$item.canonicalPath}">
-                      {$item.title|truncate:20|default:"<i>[no title]</i>"}
+                  <a class="navbar-brand menu-item" href="{$html->url($item.url)|default:$item.canonicalPath}" target="_blank">
+                      {$item.title|default:""}
                   </a>
               {/foreach}
             </div>

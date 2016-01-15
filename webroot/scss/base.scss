@@ -21,7 +21,10 @@ body {
     header:after {
         clear:none !important;
     }
+}
 
+.navbar-inverse .navbar-brand {
+    color: #B4B4B4;
 }
 
 .sidebar-brand {
@@ -31,7 +34,7 @@ body {
 }
 
 .sidebar-nav a:hover, .sidebar-nav a.on {
-    color:black;
+    color:#FD7522;
 }
 
 .sub-menu {
@@ -285,7 +288,7 @@ body {
         a {
             display: block;
             text-decoration: none;
-            color: #999999;
+            color: #68686B;
         }
     }
 }
@@ -378,6 +381,7 @@ body {
     .navbar-brand {
         font-size:15px;
         padding-right: 0;
+        color:#68686B !important;
     }
 
     .open>.link-wrapper {
@@ -390,7 +394,7 @@ body {
         z-index: 1000;
         display: none;
         float: left;
-        min-width: 160px;
+        min-width: 230px;
         padding: 5px 0;
         margin: 2px 0 0;
         font-size: 14px;

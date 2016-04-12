@@ -12,8 +12,10 @@
                   <!-- Main jumbotron for a primary marketing message or call to action -->
                   <div class="jumbotron">                  
                       <h1>{$content.title|default:''}</h1>
-                      {if !empty($content.description) or !empty($content.body)}
-                          <h2>{$content.description|default:$content.body|strip_tags|truncate:200|default:''}<h2>
+                      {if !empty($content.description)}
+                          <h2>{$content.description|strip_tags|default:''}<h2>
+                      {elseif !empty($content.body)}
+                          <h2>{$content.body|strip_tags|truncate:200|default:''}<h2>
                       {/if}
                        <p><a class="btn btn-default" href="{$html->url($content.canonicalPath)}" 
                           role="button">Read more &raquo;</a></p>

@@ -12,6 +12,7 @@
 # config
 /config/core.php
 /config/frontend.cfg.php
+/config/paths.php
 
 # webroot
 /webroot/index.php
@@ -19,9 +20,10 @@
 # tmp
 /tmp
 
+# node modules
+/node_modules
+
 # /webroot/
-/webroot/test.php
-/webroot/index.php
 /webroot/files
 
 # /webroot/img/

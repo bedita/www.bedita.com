@@ -34,9 +34,8 @@
                       {$content.title|default:''}
                     {/if}
                     </h2>
-                     
-                    {if $content.object_type != 'Link'}
-                     <h3>{$content.description|strip_tags|default:""}</h3>
+                    <h3>{$content.description|strip_tags|default:""}</h3>
+                    {if $content.object_type != 'Link'} 
                      <p>{$content.body|strip_tags|truncate:120|default:""}</p>
                      
                       <p><a class="btn btn-default" href="{$html->url($content.canonicalPath)}" 
